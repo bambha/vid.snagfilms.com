@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<!-- Build: 1.0.0.2100 | psd.hostname: N/A | hostname: ip-10-158-76-14.ec2.internal  -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video#">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <title>Shadow and Act</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="title" content="Shadow and Act" />
+		<meta name="description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta name="keywords" content="Shadow and Act, documentary, documentaries, watch, free, online, best, snag films, SnagFilms, Snag Films, SnagFilm, Snag Film, IndieWire, Indie Wire, Indie Film, Independent Film, " />
+		<link rel="icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="shortcut icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="canonical" href="http://www.snagfilms.com/films/browse/category/shadow_and_act" />
+		<meta name="msvalidate.01" content="F36E644468CC58F1E161CA94493941B0" />
+<link rel="image_src" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<link rel="media:image" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta name="medium" content="article" />
+		<meta property="og:image" content="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta property="og:description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta property="og:url" content="http://www.snagfilms.com/films/browse/category/shadow_and_act" />
+		<meta property="og:site_name" content="SnagFilms" />
+		<meta property="fb:app_id" content="227991737252697" />
+		<meta property="fb:admins" content="100001749790181" /><link rel="stylesheet" type="text/css" href="http://cdn.snagfilms.com/resource/assets/css/global.0077af24ce0cc875a337fab8e207f685.css" />
+<!--[if gte IE 9]> <style type="text/css">.gradient {filter: none;} </style><![endif]-->
+
+</head>
+<body>
+<div id="fb-root"></div>
+  <script type="text/javascript">    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-1']);
+    _gaq.push(['_setDomainName', '.snagfilms.com']);
+    _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+
+
+<!-- -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try{
+        window.pageTracker = _gat._getTracker("UA-3922545-1");
+        //pageTracker._trackPageview();
+    } catch(err) {
+        console.log("Error creating the tracker");
+    }
+</script>
+<!-- Google Analytics Social Button Tracking -->
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/ga_social_tracking.42bfd3cd629c0eba81ccd3c613523d2b.js"></script>
+<!-- Load Twitter JS-API asynchronously -->
+<script>
+    (function(){
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+        // Setup a callback to track once the script loads.
+        twitterWidgets.onload = _ga.trackTwitter;
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+
+<script type="text/javascript">
+  isFilmPage = false;
+  var SNAG = {};
+  SNAG.loggedIn = false;
+  SNAG.onFBInit = [];
+  SNAG.deferLoad = false;
+  SNAG.loadFinished = false;    
+  SNAG.loadOnReady = (function() {   
+    var lq = {high: [],med: [],low: []};     
+    return {    
+      add: function(action, priority) {if (lq.hasOwnProperty(priority)) {lq[priority].push(action);}},
+      execute: function(priority) {if(lq[priority]) {for (var i=0; i< lq[priority].length; i++){try {lq[priority][i]();} catch(err){}}}}      
+    };
+  })();  
+  SNAG.runWhenReady = function () {
+    if(!SNAG.loadFinished) {
+      var main_js = "http://cdn.snagfilms.com/resource/assets/scripts/main.dd4a8da6051904cde583489063038ae3.js"; 
+      $.getScript(main_js, function(){
+        SNAG.loadOnReady.execute('med');
+        SNAG.loadOnReady.execute('low');               
+      });
+      
+      SNAG.onFBInit.push(function(fb_object) {            
+        fb_object.Event.subscribe('auth.authResponseChange', Snag.fb.authResponseChange);
+        fb_object.Event.subscribe('edge.create', Snag.fb.like);
+        fb_object.Event.subscribe('comment.create', Snag.fb.commentCreate);
+        fb_object.Event.subscribe('comment.remove', Snag.fb.commentRemove);
+      });
+           
+      SNAG.loadFinished = true;      
+     // console.log('SNAG.runWhenReady');
+    }  
+  };
+  
+  
+        
+        _gaq.push(['_setCustomVar',
+            1, 
+            'Visitor Type', 
+            'Unauthenticated', 
+            1 
+        ]);        
+  
+</script>
+<div id="pageWrapper" class="grid2"><div id="pageHeader">
+    <div class="top clrfix">
+        <a class="logo" href="/">SnagFilms</a>
+        <div class="headerAd">
+            <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215570/0/225/ADTECH;loc=100;target=_blank;key=shadow_and_act;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+        <div class="clear-both"></div>
+    </div> <!-- end top -->
+    <div class="loginBar">
+        <div class="main-login clrfix">
+            <ul class="clear">
+                <li class="facebook last">
+            <button class="btn-fb">Login or Sign Up</button>
+        </li>
+    </ul>
+        </div><!-- end main login -->
+        </div> <!-- end login Bar -->    
+    <div class="navBar">
+        <ul class="nav clrfix">
+            <li class="home">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/">HOME</a></div>
+            </li>
+            <li class="tab-browse">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/">BROWSE FILMS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="/films/browse/?sort=likes">Most Liked</a></li>
+                        <li><a href="/films/browse/?sort=newest">New Arrivals</a></li>
+                        <li><a href="/films/browse/topics">All Topics</a></li>
+                        <li><a href="/films/browse/?sort=alpha">A-Z</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Categories</h3></li>
+                        <li><a title="Action & Adventure Movies" href="/films/browse/category/adventure_adventure/">Action &amp; Adventure</a></li>
+                        <li><a title="Art & Music Movies" href="/films/browse/category/art_music/">Art &amp; Music</a></li>
+                        <li><a title="Award-Winning Movies" href="/films/browse/category/award_winning/**">Award-Winning</a></li>
+                        <li><a title="Celebrities & Fame  Movies" href="/films/browse/category/celebrities_fame/">Celebrities &amp; Fame </a></li>
+                        <li><a title="Comedy Movies" href="/films/browse/category/comedy/">Comedy</a></li>
+                        <li><a title="Drama Movies" href="/films/browse/category/drama">Drama</a></li>
+                        <li><a title="Biography Movies" href="/films/browse/category/real_people_true_stories/**">Biography</a></li>
+                        <li><a title="Kids & Family Movies" href="/films/browse/category/family_friendly/**">Kids &amp; Family</a></li>
+                        <li><a title="Festivals Movies" href="/films/browse/category/festival">Festivals</a></li>
+                        <li><a title="Health & Food Movies" href="/films/browse/category/health_food/">Health &amp; Food</a></li>
+                        <li><a title="History Movies" href="/films/browse/category/history">History</a></li>
+                        <li><a title="Arts & Culture Movies" href="/films/browse/category/pop_culture/**">Arts &amp; Culture</a></li>
+                        <li><a title="Romance Movies" href="/films/browse/category/romance/">Romance</a></li>
+                        <li><a title="Science & Nature Movies" href="/films/browse/category/science_nature">Science &amp; Nature</a></li>
+                        <li><a title="Short Films" href="/films/browse/category/short_films/">Short Films</a></li>
+                        <li><a title="Politics & Social Issues Movies" href="/films/browse/category/social_issues_politics">Politics &amp; Social Issues</a></li>
+                        <li><a title="Thriller & Suspense Movies" href="/films/browse/category/thriller_and_suspense">Thriller &amp; Suspense</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/category/">All Categories <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="channels selected">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/channel/">CHANNELS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>POPULAR CHANNELS</h3></li>
+                        <li><a title="Celeb Interviews | Shootout Movies" href="/films/browse/category/shootout">Celeb Interviews | Shootout</a></li>
+                        <li><a title="Content Film Movies" href="/films/browse/category/content_film">Content Film</a></li>
+                        <li><a title="Alternative | Disinformation Movies" href="/films/browse/category/disinformation">Alternative | Disinformation</a></li>
+                        <li><a title="Exploration | XPLR Movies" href="/films/browse/category/xplr">Exploration | XPLR</a></li>
+                        <li><a title="Kino Lorber Movies" href="/films/browse/category/kino_lorber">Kino Lorber</a></li>
+                        <li><a title="Lionsgate Movies" href="/films/browse/category/lionsgate">Lionsgate</a></li>
+                        <li><a title="Music Videos | MVD  Movies" href="/films/browse/category/mvd">Music Videos | MVD </a></li>
+                        <li><a title="National Geographic Movies" href="/films/browse/category/national_geographic">National Geographic</a></li>
+                        <li><a title="New Video Movies" href="/films/browse/category/new_video">New Video</a></li>
+                        <li><a title="Shorts | Media that Matters Movies" href="/films/browse/category/media_that_matters">Shorts | Media that Matters</a></li>
+                        <li><a title="Travel | Content Republic Movies" href="/films/browse/category/content_republic">Travel | Content Republic</a></li>
+                        <li><a title="Wildlife | Jeff Corwin Movies" href="/films/browse/category/feeling_the_heat_with_jeff_corwin">Wildlife | Jeff Corwin</a></li>
+                        <li><a title="Sundance Movies" href="/sundance">Sundance</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/channel/">All Channels <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="filmanthropy">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>MOVIES THAT MATTER</h3></li>
+                        <li><a href="/films/browse/filmanthropy/build-community">Build Community</a></li>
+                        <li><a href="/films/browse/filmanthropy/celebrate-diversity">Celebrate Diversity</a></li>
+                        <li><a href="/films/browse/filmanthropy/champion-human-rights">Champion Human Rights</a></li>
+                        <li><a href="/films/browse/filmanthropy/connect-to-a-higher-power">Connect to a Higher Power</a></li>
+                        <li><a href="/films/browse/filmanthropy/empower-women">Empower Women</a></li>
+                        <li><a href="/films/browse/filmanthropy/encourage-healthy-living">Encourage Healthy Living</a></li>
+                        <li><a href="/films/browse/filmanthropy/examine-globalization">Examine Globalization</a></li>
+                        <li><a href="/films/browse/filmanthropy/exercise-democracy">Exercise Democracy</a></li>
+                        <li><a href="/films/browse/filmanthropy/explore-arts-and-culture">Explore Arts and Culture</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-disease">Fight Disease</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-poverty">Fight Poverty</a></li>
+                        <li><a href="/films/browse/filmanthropy/investigate-the-natural-world">Investigate the Natural World</a></li>
+                        <li><a href="/films/browse/filmanthropy/learn-from-history">Learn from History</a></li>
+                        <li><a href="/films/browse/filmanthropy/promote-peace">Promote Peace</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-our-children">Protect Our Children</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-the-environment">Protect the Environment</a></li>
+                        <li><a href="/films/browse/filmanthropy/pursue-your-passion">Pursue Your Passion</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/filmanthropy/">All Causes <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="nav-queue">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="#">MY QUEUE </a></div>
+                <div class="dropdown">
+                    <div class="queue-login">
+                                        <b>Please login or register to save films to your queue and more.</b>
+                                        <button class="btn-fb">Login with Facebook</button>
+                                    </div>
+                                </div> <!-- end dropdown -->
+</li>
+            <li class="search">
+                <form id="frm1" class="sBar clear" action="/films/search" method="get">
+                    <input name="q" class="placeholder sBox" id="query" type="text" placeholder="Search 3,000 Films" />
+                        <input class="search" type="submit" value="SEARCH" />
+                </form>
+                <div class="clear-both"></div>
+            </li>
+        </ul>
+    </div> <!-- end nav bar -->
+    </div> <!-- end page header -->
+
+<div id="contentWrapper" class="browse search clrfix"><script>
+if (location.hash != "") {
+	var c = Snag.Utils.cookie.get(Snag.browse.cookieName);
+	if (c) {
+	    location.href = c;
+	}
+}
+
+</script><ul class="breadcrumb clrfix">
+    <li><a href="/">Home</a>&nbsp;&nbsp;></li>
+    <li><a href="/films/browse/">Browse Films</a>&nbsp;&nbsp;></li>
+            <li>Shadow and Act</li>
+        </ul><div id="col1"><div class="filter-by">
+    <h3>Narrow Results
+    <span class="topCorner"></span>
+    <span class="topCorner bottomCorner"></span></h3>
+
+    <form id="frm-filter" method="get">
+        <div class="section">
+            <label for="select-rating">Rating</label>
+            <select class="ui-select" id="filter-rating" name="rating">
+                <option value="">All</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Stars</option>
+            </select>
+        </div>
+        <div class="section run-time">
+            <label for="run-time">Run Time</label>
+            <input type="input" name="min-time" size="3" data-value="0" value="" /> to <input type="input" name="max-time" size="3" data-value="180" value=""/> minutes
+        </div>
+
+        <div class="section">
+            <label for="select-type">Documentary / Fiction</label>
+            <select class="ui-select" id="filter-type" name="type">
+                <option value="">All</option>
+                <option value="Documentary">Documentary</option>
+                <option value="Fiction">Fiction</option>
+            </select>
+        </div>
+        <div class="section show-worldwide">
+            <input type="checkbox" id="filter-worldwide" name="ww" value="true" />
+            <label for="filter-worldwide">Available worldwide</label>
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+        <input type="hidden" name="view" value="" />
+        <input type="hidden" name="sort" value="" />
+        <input type="hidden" name="ltr" value="" />
+        <input type="hidden" name="q" value="" />
+    </form>
+</div>
+
+<span class="topCorner"></span></div><div id="col2" class="current-results"><h1><span class="number">39</span> Shadow and Act <fb:like href="http://www.snagfilms.com/films/browse/category/shadow_and_act" send="false" layout="button_count" show_faces="false"></fb:like></h1>
+    <div class="main-promo clear">
+        <div class="logo">
+            <a href="http://blogs.indiewire.com/shadowandact/#" target="_blank"><img src="http://ec.snagfilms.com/images/logos/shadowandact_logo3.jpg" alt="" /></a></div><div class="description">
+            <!-- headline with optional link -->
+            <h2>Shadow and Act</h2>
+            <p><span style="font-size:10pt;font-family:Verdana">Shadow and Act Films focuses on bringing artistically-inspired and culturally relevant films about people of color to a global audience. Through our Shadow and Act Digital Filmmaker Showcase, we present an eclectic slate of short films representing the latest generation of emerging filmmaking talent.</span></p>
+        </div></div>
+<a name="top"></a>
+
+<div class="sort-view">
+        <div class="sort">
+            <form id="frm-sorting">
+                <label for="slt-sort">Sort By:</label>
+                <select class="ui-select" id="slt-sort">
+                    <option data-value="newest" value="/films/browse/category/shadow_and_act?sort=newest">Newest</option>
+                    <option data-value="likes" value="/films/browse/category/shadow_and_act?sort=likes">Most Liked</option>
+                    <option data-value="ratings" value="/films/browse/category/shadow_and_act?sort=ratings">Highest Rated</option>
+                    <option data-value="comments" value="/films/browse/category/shadow_and_act?sort=comments">Most Commented</option>
+                    <option data-value="alpha" value="/films/browse/category/shadow_and_act?sort=alpha">A-Z</option>
+                </select>
+            </form>
+        </div>
+        <div class="view">
+            <span>Grid View</span> | <a href="/films/browse/category/shadow_and_act?view=list" data-type="list" onclick="Snag.Utils.Pagi.pagesLoaded = 1;">List View</a>
+                </div>
+        <div class="rss">
+            <a href="/films/feeds/films?channel=Shadow%20and%20Act" target="_blank">RSS</a>
+        </div>
+
+        </div>  <!-- end sort-view -->
+<div class="results grid-view">
+    <div class="ad-wrapper">
+        <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215571/0/170/ADTECH;loc=100;target=_blank;key=shadow_and_act;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+<ul class="clear films-list">
+    <li>
+	                        <a class="snag-thumb-link" href="/films/title/underground" data-id="00000137-e1f5-d0c1-a1ff-fbfded510000">
+    <img src="http://ec.snagfilms.com/images/underground/underground_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/underground">Underground </a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/underground">Underground <span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A tale of a family’s escape from slavery, told through song</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 19  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="00000137-e1f5-d0c1-a1ff-fbfded510000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/break_in" data-id="00000137-5b50-d9e9-ad7f-ff7351210000">
+    <img src="http://ec.snagfilms.com/images/breakin/breakin_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/break_in">Break-In</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/break_in">Break-In<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Forced into prostitution by her abusive boyfriend, Shawni finds an unexpected ally</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 20  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (9) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="00000137-5b50-d9e9-ad7f-ff7351210000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/adrenaline" data-id="a1f77680-8e21-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/adrenaline/adrenaline_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/adrenaline">Adrenaline</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/adrenaline">Adrenaline<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Leo gets a rush from suddenly interrupting the lives of others</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 7  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a1f77680-8e21-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/a_day_in_the_life" data-id="cee080b0-8e21-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/adayinthelife/adayinthelife_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/a_day_in_the_life">A Day in the Life</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/a_day_in_the_life">A Day in the Life<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A day in the life of the artist as an awakened, participating descendant of the African Diaspora</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 16  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="cee080b0-8e21-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/zewdu" data-id="735ac8e0-8e21-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/zewdu/zewdu_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/zewdu">Zewdu</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/zewdu">Zewdu<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>One of thousands of children living on the streets of Addis Ababa, Zewdu gets an unexpected windfall that will allow him to return to his village</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 11  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="735ac8e0-8e21-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/nick_of_time" data-id="3fe1c090-8e21-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/nickoftime/nickoftime_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/nick_of_time">Nick of Time</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/nick_of_time">Nick of Time<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Nick stumbles upon a unique way to avoid getting dumped by his girlfriend</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 12  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (4) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="3fe1c090-8e21-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/full_circle" data-id="0fdbbef0-8e21-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/fullcircle/fullcircle_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/full_circle">Full Circle</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/full_circle">Full Circle<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An unabashed kleptomaniac, Ethan&#039;s bluff is called during a visit to the local drugstore</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 5  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0fdbbef0-8e21-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/cuts" data-id="e1638940-8e20-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/cuts/cuts_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/cuts">Cuts</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/cuts">Cuts<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>After striking out to end a game, a son tries to prove his manhood to his demanding father</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 12  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e1638940-8e20-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/tags" data-id="afda1bf0-8e20-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/tags/tags_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/tags">Tags</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/tags">Tags<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A  graffiti artist squares off with the police and a bitter rival to finish a prized piece</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 12  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="afda1bf0-8e20-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/cocoa_love" data-id="82b89ca0-8e20-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/cocoalove/cocoalove_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/cocoa_love">Cocoa Love</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/cocoa_love">Cocoa Love<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A young couple&#039;s relationship is tested when their dog&#039;s funeral turns into mayhem</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 11  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="82b89ca0-8e20-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/trainerr" data-id="416d3800-8e20-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/trainerr/trainerr_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/trainerr">Trainerr</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/trainerr">Trainerr<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Three lives tragically intersect on a NYC subway</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 10  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (4) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="416d3800-8e20-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_olutunmbis" data-id="fef11b90-8e1f-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/theolutunmbis/theolutunmbis_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_olutunmbis">The Olutunmbi&#039;s</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_olutunmbis">The Olutunmbi&#039;s<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A short documentary that meditates on the religious tensions among members of a Nigerian American family</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 12  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fef11b90-8e1f-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/broke_on_ice" data-id="d09fced0-8e1f-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/brokeonice/brokeonice_120x90_2.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/broke_on_ice">Broke on Ice</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/broke_on_ice">Broke on Ice<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Broke, a journeyman is haunted by his fear of dying before he has lived a meaningful life</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 6  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="d09fced0-8e1f-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/i_am_man" data-id="7ea2bbb0-8e1f-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/iamman/iamman_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/i_am_man">I Am Man</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/i_am_man">I Am Man<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Taurus, a college hoops star, questions his manhood after an unusual encounter with a woman</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 16  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (10) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="7ea2bbb0-8e1f-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/katrinas_son" data-id="e679f1a0-8e1e-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/katrinasson/katrinasson_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/katrinas_son">Katrina&#039;s Son</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/katrinas_son">Katrina&#039;s Son<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An orphaned boy escapes New Orleans after Hurricane Katrina</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 14  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e679f1a0-8e1e-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/quietly" data-id="6bec8010-8e1e-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/quietly/quietly_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/quietly">Quietly</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/quietly">Quietly<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>With his world crashing down around him, a desperate teenager must resort to dangerous measures to save his mother from an abusive relationship</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 16  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="6bec8010-8e1e-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/dark_secret" data-id="26f1cf10-8e1e-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/darksecret/darksecret_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/dark_secret">Dark Secret</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/dark_secret">Dark Secret<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A young woman comes to terms with the possibility that her man is on the down low</p>
+    </div>
+    <div class="f-footer">
+        <p>(2005) 25  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="26f1cf10-8e1e-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/tribu_du_combat" data-id="ab2af320-8e1d-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/tribudecombat/tribudecombat_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/tribu_du_combat">Tribu De Combat</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/tribu_du_combat">Tribu De Combat<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>In part one of this international fight anthology, Sebastien and Malik battle for control of the Tribe</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 4  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ab2af320-8e1d-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/thursday" data-id="72c7ad70-8e1d-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/thursday/thursday_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/thursday">Thursday</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/thursday">Thursday<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A young man struggles to make ends meet for himself and his father, who has severe Alzheimer’s</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 14  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="72c7ad70-8e1d-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/moore_street" data-id="45650670-8e1d-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/moorestreet/moorestreet_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/moore_street">Moore Street</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/moore_street">Moore Street<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A young African immigrant considers her future and unfolding sense of identity as she walks at night along the iconic Moore Street in Dublin, Ireland</p>
+    </div>
+    <div class="f-footer">
+        <p>(2004) 6  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="45650670-8e1d-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/grace_period" data-id="198f6810-8e1d-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/graceperiod/graceperiod_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/grace_period">Grace Period</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/grace_period">Grace Period<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Mercenary debt collectors track down delinquent debtors and force them to pay up… or else</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 14  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="198f6810-8e1d-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/good_intentions" data-id="ee8249d0-8e1c-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/goodintentions/goodintentions_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/good_intentions">Good Intentions</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/good_intentions">Good Intentions<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>With no health insurance and a terminally ill husband, Camille must make a difficult choice</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 22  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ee8249d0-8e1c-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/loo_e_change" data-id="b52f4cf0-8e1c-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/shadowandact/loo$echange/loo$echange_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/loo_e_change">Loo$e Change</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/loo_e_change">Loo$e Change<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>For young Omari, its hard growing up a black male in the age of Obama</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 16  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (19) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="b52f4cf0-8e1c-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/premature" data-id="8591d120-8e1c-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/premature/premature_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/premature">Premature</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/premature">Premature<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>With nowhere to turn, a pregnant teen is faced with the most difficult decision she will ever make</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 14  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8591d120-8e1c-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lovers" data-id="4a30b4c0-8e1c-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/lovers/lovers_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lovers">Lovers</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lovers">Lovers<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A reflective essay on love lost</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 6  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (9) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="4a30b4c0-8e1c-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_man_in_the_glass_case" data-id="0deab6a0-8e1c-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/themanintheglasscase/themanintheglasscase_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_man_in_the_glass_case">The Man in the Glass Case</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_man_in_the_glass_case">The Man in the Glass Case<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>James commits an irrationally violent act, resulting in a confrontation that challenges his apathetic view of life</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 19  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0deab6a0-8e1c-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/knock_off" data-id="b1540400-8e1b-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/knockoff/knockoff_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/knock_off">Knock Off</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/knock_off">Knock Off<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Jude, a feisty pregnant teen, takes a stand and inspires her father</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 11  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (6) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="b1540400-8e1b-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/casting_notice" data-id="8087a520-8e1b-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/castingnotice/castingnotice_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/casting_notice">Casting Notice</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/casting_notice">Casting Notice<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A struggling actor is offered $10,000 to star in an adult film</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 17  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (6) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8087a520-8e1b-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/one_against_another" data-id="e84fbfe0-8e1a-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/oneagainstanother/oneagainstanother_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/one_against_another">One Against Another</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/one_against_another">One Against Another<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A retired boxing champ has a difficult time adjusting to life outside the ring</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 18  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e84fbfe0-8e1a-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/hear_me" data-id="a0017710-8e1a-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/hearme/hearme_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/hear_me">Hear Me</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/hear_me">Hear Me<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A grieving songwriter gets cryptic text messages a year after his fiance&#039;s disappearance</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 26  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a0017710-8e1a-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/their_eyes_were_watching_gummy_bears" data-id="523cfa00-8e19-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/theireyeswerewatchinggummybears/theireyeswerewatchinggummybears_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/their_eyes_were_watching_gummy_bears">Their Eyes Were Watching Gu...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/their_eyes_were_watching_gummy_bears">Their Eyes Were Watching Gummy Bears<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>On the eve of his graduation from Princeton, Del must win back Laura’s heart</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 19  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="523cfa00-8e19-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/men_in_love" data-id="06840ef0-8e19-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/meninlove/meninlove_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/men_in_love">Men in Love</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/men_in_love">Men in Love<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Following a bitter break-up, Leo has a steamy encounter at a house party</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 11  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (6) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="06840ef0-8e19-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/in_the_wind" data-id="a182aac0-8e18-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/inthewind/inthewind_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/in_the_wind">In the Wind</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/in_the_wind">In the Wind<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A Marine’s bittersweet New Orleans homecoming after Hurricane Katrina</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 18  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (29) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a182aac0-8e18-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/hug" data-id="ba807130-8e16-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/hug/hug_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/hug">Hug</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/hug">Hug<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Drew, an unstable musical virtuoso, is off his meds on the morning he has to sign a record deal</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 16  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ba807130-8e16-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/mr_graham" data-id="7e33bc50-8e16-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/mrgraham/mrgraham_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/mr_graham">Mr. Graham</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/mr_graham">Mr. Graham<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A young man attempts to come to terms with his inner demons</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 13  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="7e33bc50-8e16-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/fatima" data-id="3a7ccb60-8e15-11e1-8768-123139220831">
+    <img src="http://ec.snagfilms.com/images/fatima/fatima_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/fatima">Fatima</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/fatima">Fatima<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Fatima receives a letter that changes her life and those of many others</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 10  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="3a7ccb60-8e15-11e1-8768-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                </ul>
+
+
+
+    <div class="pagination">
+            <div class="bottom-title-count">
+            <span class="number">39</span> Shadow and Act</div>
+    <ul class="pagi clrfix">
+        <li class="prev disabled"><a href="#">previous</a></li>
+        <li class="number">1<span> of </span> 2</li>
+        <li class="next"><a href="/films/browse/category/shadow_and_act?offset=36">next</a></li>
+    </ul>
+</div>
+    </div> <!-- end results -->
+</div></div><div id="pageFooter"><div class="recirculation-module">
+        <div class="carousel">
+
+        </div>
+    </div><div class="footer">
+    <a class="fLogo" href="/">SnagFilms</a>
+    <div class="clear-both"></div>
+    <ul class="fnav clrfix">
+        <li><a class="noPad" href="/">HOME</a></li>
+        <li><a href="/films/browse/category/">BROWSE FILMS</a></li>
+        <li><a href="/films/browse/channel/">CHANNELS</a></li>
+        <li><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></li>
+        <li class="search">
+            <form id="ffrm1" class="sBar clrfix" action="/films/search" method="get">
+                <input name="q" id="fquery" class="sBox" type="text" placeholder="Search 3,000 Films" />
+                <input class="search" type="submit" value="SEARCH" />
+                <div class="clear-both"></div>
+            </form>
+        </li>
+    </ul>
+    <div class="fsubnav clrfix">
+        <ul class="clrfix flinks">
+            <li>
+                    <a href="/films/about">About Our Site</a></li>
+            <li>
+                    <a href="/films/our-company">Our Company</a></li>
+            <li>
+                    <a href="/films/team">Team</a></li>
+            <li>
+                    <a href="https://getsatisfaction.com/snagfilms" target="_blank">Feedback</a></li>
+            <li>
+                    <a href="/films/frequently_asked_questions">FAQ</a></li>
+            <li>
+                    <a href="/films/sitemap">Sitemap</a></li>
+            <li>
+                    <a href="http://itunes.apple.com/us/app/snagfilms/id404906625?mt=8">iPad / iPhone App</a></li>
+            <li>
+                    <a href="https://market.android.com/details?id=air.com.snagfilms&feature=search_result#?t=W251bGwsMSwyLDEsImFpci5jb20uc25hZ2ZpbG1zIl0." target="_blank">Android</a></li>
+            <li>
+                    <a href="http://www.amazon.com/SnagFilms-Inc-Beta/dp/B006BGXIO2/ref=sr_1_2?ie=UTF8&qid=1323709141&sr=8-2" target="_blank">Kindle Fire</a></li>
+            <li>
+                    <a href="http://appworld.blackberry.com/webstore/content/64991?lang=en" target="_blank">Blackberry</a></li>
+            <li>
+                    <a href="http://snagfilms.tumblr.com/post/4776522589/snagfilms-top-quality-documentaries-arrive-on-boxee" target="_blank">Boxee</a></li>
+            <li>
+                    <a href="http://www.businesswire.com/news/home/20110531006294/en/SnagFilms-launches-Roku-Acclaimed-Non-Fiction-Films" target="_blank">Roku</a></li>
+            <li>
+                    <a href="http://store.sony.com/webapp/wcs/stores/servlet/ContentDisplayView?hideHeaderFooter=false&storeId=10151&catalogId=10551&langId=-1&cmsId=STATICS_BIV_showcase" target="_blank">Sony</a></li>
+            <li>
+                    <a href="/films/submissions">Submit Your Film</a></li>
+            <li>
+                    <a href="/films/blog/category/press">Press</a></li>
+            <li>
+                    <a href="/films/blog">Blog</a></li>
+            <li>
+                    <a href="/films/advertise">Advertise</a></li>
+            <li>
+                    <a href="http://indieWIRE.com" target="_blank">Indiewire</a></li>
+            <li>
+                    <a href="http://www.youtube.com/user/snagfilms" target="_blank">YouTube</a></li>
+            <li>
+                    <a href="/films/jobs">Jobs</a></li>
+            <li>
+                    <a href="/films/privacy">Privacy</a></li>
+            <li>
+                    <a href="/films/terms">Terms</a></li>
+            <li>
+                    </li>
+            </ul>
+        <ul class="clrfix fconnect">
+            <li><span>Connect With SnagFilms:</span></li>
+                <li><a target="_blank" href="http://www.facebook.com/snagfilms">Facebook</a></li>
+                <li><a target="_blank" href="http://twitter.com/#!/snagfilms">Twitter</a></li>
+                <li><a target="_blank" href="/films/rss">RSS</a></li>
+                <li class="nl">
+                    <a id="newsletter-footer" class="last newsletter" href="#">Newsletter</a>
+                    <div id="newsletter-footer-frame-wrap" class="popup hidden ">
+    <iframe class="nl-frame" id="newsletter-footer-frame" src="" scrolling="no"></iframe>
+</div> <!-- end popup --></li>
+            </ul>
+    </div> <!-- end fsubnav -->
+    <div class="cright">&copy; Copyright 2008-2013 SnagFilms Inc. All Rights Reserved</div>
+    </div> <!-- end footer -->
+
+<script type="text/javascript">
+  SNAG.loadOnReady.add(function() {
+    var js_file = "http://cdn.snagfilms.com/resource/assets/scripts/jquery.autocomplete.c95ce2984cbf94aba9816e5891ca913d.js"; 
+    $.getScript(js_file, function(){
+      var options, a;
+      options = { serviceUrl:'/apis/titlesearch.json',
+	  			  minChars:3,
+	  			  deferRequestBy: 100, //miliseconds
+	  			  width:375,
+	  			  onSelect: function(value, data){window.location.href = data;}
+	  			  };
+      a = $('#query').autocomplete(options);
+      a = $('#fquery').autocomplete(options);
+      a.enable();
+    });
+	}, 'low');
+</script>
+
+<div id="getsat-widget-4505"></div>
+
+<script>
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://" : "http://") + "loader.engage.gsfn.us/loader.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  SNAG.loadOnReady.add(function() {if (typeof GSFN !== "undefined"){ GSFN.loadWidget(4505,{"containerId":"getsat-widget-4505"});}}, 'low');
+</script>
+
+<script type="text/javascript">_ga.trackFacebook();</script>
+</div></div><div id="queue-login" class="alt">Please login. <button class="btn-fb">Login</button></div>
+        <!-- Quantcast -->    
+        <script type="text/javascript">
+          var _qevents = _qevents || [];
+          _qevents.push( { qacct:"p-c1zCil38GHR-I"} );
+        </script>
+        <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1" alt="Quantcast"/></div>
+        </noscript>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery.tools.min.be31d9c385a70e9332e1d2c4f433d4de.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/swfobject.min.f24810ced6e0d3f40695dba6b8e59d96.js"></script>
+
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery-ui-1.8.22.custom.min.9b9d4784ea7921f3f7712a9ca9600c69.js"></script>
+<script type="text/javascript">   
+      SNAG.loadOnReady.add(function(){ 
+        
+        
+        window.fbAsyncInit = function() {
+          FB.init({
+              appId: '227991737252697',
+              status : true,
+              cookie : true,
+              oauth: true,
+              email: true,
+              xfbml  : true
+          });
+        
+          for (var i=0;i<SNAG.onFBInit.length;i++) {
+            if (typeof SNAG.onFBInit[i] === 'function') {
+              SNAG.onFBInit[i](FB);
+            }
+          }            
+
+        } //window.fbAsyncInit
+        
+        
+        $('.login a').on('click', function(event) { 
+          event.preventDefault();
+          
+          
+          document.cookie = 'fbsr_227991737252697 = ""; expired=0; path=/; domain=.snagfilms.com';
+          
+          FB.logout(function() {
+		    				      
+				location.reload();
+			  		
+          });
+        });
+
+		 
+		  
+        (function(d){
+          var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+          js = d.createElement('script'); js.id = id; js.async = true;
+          js.src = "//connect.facebook.net/en_US/all.js";
+          d.getElementsByTagName('head')[0].appendChild(js);
+        }(document)); 
+      
+        
+
+        $.getScript("http://cdn.snagfilms.com/resource/assets/scripts/footer.fe07b593fd7360f3b76858b7fe5aa8e8.js", function(){});             
+      },'low');
+      
+    </script>
+    
+  <script type="text/javascript">     
+
+    $(document).ready(function() {        
+      SNAG.loadOnReady.execute('high');      
+      if(SNAG.deferLoad) {      
+        setTimeout(function(){
+          if(!SNAG.loadFinished) {
+            SNAG.runWhenReady();
+          }
+        }, 10000);  
+      }
+      else {
+        SNAG.runWhenReady();
+      }           
+          
+    });
+  </script>      
+
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+            Sailthru.setup({
+                domain: 'horizon.snagfilms.com'
+            });
+        };
+    })();
+</script>
+      
+  </body>
+</html>

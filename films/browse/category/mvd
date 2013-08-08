@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<!-- Build: 1.0.0.2100 | psd.hostname: N/A | hostname: ip-10-28-226-207.ec2.internal  -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video#">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <title>Music Videos | MVD</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="title" content="Music Videos | MVD" />
+		<meta name="description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta name="keywords" content="Music Videos | MVD , documentary, documentaries, watch, free, online, best, snag films, SnagFilms, Snag Films, SnagFilm, Snag Film, IndieWire, Indie Wire, Indie Film, Independent Film, " />
+		<link rel="icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="shortcut icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="canonical" href="http://www.snagfilms.com/films/browse/category/mvd" />
+		<meta name="msvalidate.01" content="F36E644468CC58F1E161CA94493941B0" />
+<link rel="image_src" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<link rel="media:image" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta name="medium" content="article" />
+		<meta property="og:image" content="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta property="og:description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta property="og:url" content="http://www.snagfilms.com/films/browse/category/mvd" />
+		<meta property="og:site_name" content="SnagFilms" />
+		<meta property="fb:app_id" content="227991737252697" />
+		<meta property="fb:admins" content="100001749790181" /><link rel="stylesheet" type="text/css" href="http://cdn.snagfilms.com/resource/assets/css/global.0077af24ce0cc875a337fab8e207f685.css" />
+<!--[if gte IE 9]> <style type="text/css">.gradient {filter: none;} </style><![endif]-->
+
+</head>
+<body>
+<div id="fb-root"></div>
+  <script type="text/javascript">    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-1']);
+    _gaq.push(['_setDomainName', '.snagfilms.com']);
+    _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+
+
+<!-- -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try{
+        window.pageTracker = _gat._getTracker("UA-3922545-1");
+        //pageTracker._trackPageview();
+    } catch(err) {
+        console.log("Error creating the tracker");
+    }
+</script>
+<!-- Google Analytics Social Button Tracking -->
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/ga_social_tracking.42bfd3cd629c0eba81ccd3c613523d2b.js"></script>
+<!-- Load Twitter JS-API asynchronously -->
+<script>
+    (function(){
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+        // Setup a callback to track once the script loads.
+        twitterWidgets.onload = _ga.trackTwitter;
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+
+<script type="text/javascript">
+  isFilmPage = false;
+  var SNAG = {};
+  SNAG.loggedIn = false;
+  SNAG.onFBInit = [];
+  SNAG.deferLoad = false;
+  SNAG.loadFinished = false;    
+  SNAG.loadOnReady = (function() {   
+    var lq = {high: [],med: [],low: []};     
+    return {    
+      add: function(action, priority) {if (lq.hasOwnProperty(priority)) {lq[priority].push(action);}},
+      execute: function(priority) {if(lq[priority]) {for (var i=0; i< lq[priority].length; i++){try {lq[priority][i]();} catch(err){}}}}      
+    };
+  })();  
+  SNAG.runWhenReady = function () {
+    if(!SNAG.loadFinished) {
+      var main_js = "http://cdn.snagfilms.com/resource/assets/scripts/main.dd4a8da6051904cde583489063038ae3.js"; 
+      $.getScript(main_js, function(){
+        SNAG.loadOnReady.execute('med');
+        SNAG.loadOnReady.execute('low');               
+      });
+      
+      SNAG.onFBInit.push(function(fb_object) {            
+        fb_object.Event.subscribe('auth.authResponseChange', Snag.fb.authResponseChange);
+        fb_object.Event.subscribe('edge.create', Snag.fb.like);
+        fb_object.Event.subscribe('comment.create', Snag.fb.commentCreate);
+        fb_object.Event.subscribe('comment.remove', Snag.fb.commentRemove);
+      });
+           
+      SNAG.loadFinished = true;      
+     // console.log('SNAG.runWhenReady');
+    }  
+  };
+  
+  
+        
+        _gaq.push(['_setCustomVar',
+            1, 
+            'Visitor Type', 
+            'Unauthenticated', 
+            1 
+        ]);        
+  
+</script>
+<div id="pageWrapper" class="grid2"><div id="pageHeader">
+    <div class="top clrfix">
+        <a class="logo" href="/">SnagFilms</a>
+        <div class="headerAd">
+            <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215570/0/225/ADTECH;loc=100;target=_blank;key=mvd;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+        <div class="clear-both"></div>
+    </div> <!-- end top -->
+    <div class="loginBar">
+        <div class="main-login clrfix">
+            <ul class="clear">
+                <li class="facebook last">
+            <button class="btn-fb">Login or Sign Up</button>
+        </li>
+    </ul>
+        </div><!-- end main login -->
+        </div> <!-- end login Bar -->    
+    <div class="navBar">
+        <ul class="nav clrfix">
+            <li class="home">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/">HOME</a></div>
+            </li>
+            <li class="tab-browse">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/">BROWSE FILMS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="/films/browse/?sort=likes">Most Liked</a></li>
+                        <li><a href="/films/browse/?sort=newest">New Arrivals</a></li>
+                        <li><a href="/films/browse/topics">All Topics</a></li>
+                        <li><a href="/films/browse/?sort=alpha">A-Z</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Categories</h3></li>
+                        <li><a title="Action & Adventure Movies" href="/films/browse/category/adventure_adventure/">Action &amp; Adventure</a></li>
+                        <li><a title="Art & Music Movies" href="/films/browse/category/art_music/">Art &amp; Music</a></li>
+                        <li><a title="Award-Winning Movies" href="/films/browse/category/award_winning/**">Award-Winning</a></li>
+                        <li><a title="Celebrities & Fame  Movies" href="/films/browse/category/celebrities_fame/">Celebrities &amp; Fame </a></li>
+                        <li><a title="Comedy Movies" href="/films/browse/category/comedy/">Comedy</a></li>
+                        <li><a title="Drama Movies" href="/films/browse/category/drama">Drama</a></li>
+                        <li><a title="Biography Movies" href="/films/browse/category/real_people_true_stories/**">Biography</a></li>
+                        <li><a title="Kids & Family Movies" href="/films/browse/category/family_friendly/**">Kids &amp; Family</a></li>
+                        <li><a title="Festivals Movies" href="/films/browse/category/festival">Festivals</a></li>
+                        <li><a title="Health & Food Movies" href="/films/browse/category/health_food/">Health &amp; Food</a></li>
+                        <li><a title="History Movies" href="/films/browse/category/history">History</a></li>
+                        <li><a title="Arts & Culture Movies" href="/films/browse/category/pop_culture/**">Arts &amp; Culture</a></li>
+                        <li><a title="Romance Movies" href="/films/browse/category/romance/">Romance</a></li>
+                        <li><a title="Science & Nature Movies" href="/films/browse/category/science_nature">Science &amp; Nature</a></li>
+                        <li><a title="Short Films" href="/films/browse/category/short_films/">Short Films</a></li>
+                        <li><a title="Politics & Social Issues Movies" href="/films/browse/category/social_issues_politics">Politics &amp; Social Issues</a></li>
+                        <li><a title="Thriller & Suspense Movies" href="/films/browse/category/thriller_and_suspense">Thriller &amp; Suspense</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/category/">All Categories <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="channels selected">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/channel/">CHANNELS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>POPULAR CHANNELS</h3></li>
+                        <li><a title="Celeb Interviews | Shootout Movies" href="/films/browse/category/shootout">Celeb Interviews | Shootout</a></li>
+                        <li><a title="Content Film Movies" href="/films/browse/category/content_film">Content Film</a></li>
+                        <li><a title="Alternative | Disinformation Movies" href="/films/browse/category/disinformation">Alternative | Disinformation</a></li>
+                        <li><a title="Exploration | XPLR Movies" href="/films/browse/category/xplr">Exploration | XPLR</a></li>
+                        <li><a title="Kino Lorber Movies" href="/films/browse/category/kino_lorber">Kino Lorber</a></li>
+                        <li><a title="Lionsgate Movies" href="/films/browse/category/lionsgate">Lionsgate</a></li>
+                        <li><a title="Music Videos | MVD  Movies" href="/films/browse/category/mvd">Music Videos | MVD </a></li>
+                        <li><a title="National Geographic Movies" href="/films/browse/category/national_geographic">National Geographic</a></li>
+                        <li><a title="New Video Movies" href="/films/browse/category/new_video">New Video</a></li>
+                        <li><a title="Shorts | Media that Matters Movies" href="/films/browse/category/media_that_matters">Shorts | Media that Matters</a></li>
+                        <li><a title="Travel | Content Republic Movies" href="/films/browse/category/content_republic">Travel | Content Republic</a></li>
+                        <li><a title="Wildlife | Jeff Corwin Movies" href="/films/browse/category/feeling_the_heat_with_jeff_corwin">Wildlife | Jeff Corwin</a></li>
+                        <li><a title="Sundance Movies" href="/sundance">Sundance</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/channel/">All Channels <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="filmanthropy">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>MOVIES THAT MATTER</h3></li>
+                        <li><a href="/films/browse/filmanthropy/build-community">Build Community</a></li>
+                        <li><a href="/films/browse/filmanthropy/celebrate-diversity">Celebrate Diversity</a></li>
+                        <li><a href="/films/browse/filmanthropy/champion-human-rights">Champion Human Rights</a></li>
+                        <li><a href="/films/browse/filmanthropy/connect-to-a-higher-power">Connect to a Higher Power</a></li>
+                        <li><a href="/films/browse/filmanthropy/empower-women">Empower Women</a></li>
+                        <li><a href="/films/browse/filmanthropy/encourage-healthy-living">Encourage Healthy Living</a></li>
+                        <li><a href="/films/browse/filmanthropy/examine-globalization">Examine Globalization</a></li>
+                        <li><a href="/films/browse/filmanthropy/exercise-democracy">Exercise Democracy</a></li>
+                        <li><a href="/films/browse/filmanthropy/explore-arts-and-culture">Explore Arts and Culture</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-disease">Fight Disease</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-poverty">Fight Poverty</a></li>
+                        <li><a href="/films/browse/filmanthropy/investigate-the-natural-world">Investigate the Natural World</a></li>
+                        <li><a href="/films/browse/filmanthropy/learn-from-history">Learn from History</a></li>
+                        <li><a href="/films/browse/filmanthropy/promote-peace">Promote Peace</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-our-children">Protect Our Children</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-the-environment">Protect the Environment</a></li>
+                        <li><a href="/films/browse/filmanthropy/pursue-your-passion">Pursue Your Passion</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/filmanthropy/">All Causes <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="nav-queue">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="#">MY QUEUE </a></div>
+                <div class="dropdown">
+                    <div class="queue-login">
+                                        <b>Please login or register to save films to your queue and more.</b>
+                                        <button class="btn-fb">Login with Facebook</button>
+                                    </div>
+                                </div> <!-- end dropdown -->
+</li>
+            <li class="search">
+                <form id="frm1" class="sBar clear" action="/films/search" method="get">
+                    <input name="q" class="placeholder sBox" id="query" type="text" placeholder="Search 3,000 Films" />
+                        <input class="search" type="submit" value="SEARCH" />
+                </form>
+                <div class="clear-both"></div>
+            </li>
+        </ul>
+    </div> <!-- end nav bar -->
+    </div> <!-- end page header -->
+
+<div id="contentWrapper" class="browse search clrfix"><script>
+if (location.hash != "") {
+	var c = Snag.Utils.cookie.get(Snag.browse.cookieName);
+	if (c) {
+	    location.href = c;
+	}
+}
+
+</script><ul class="breadcrumb clrfix">
+    <li><a href="/">Home</a>&nbsp;&nbsp;></li>
+    <li><a href="/films/browse/">Browse Films</a>&nbsp;&nbsp;></li>
+            <li>Music Videos | MVD </li>
+        </ul><div id="col1"><div class="filter-by">
+    <h3>Narrow Results
+    <span class="topCorner"></span>
+    <span class="topCorner bottomCorner"></span></h3>
+
+    <form id="frm-filter" method="get">
+        <div class="section">
+            <label for="select-rating">Rating</label>
+            <select class="ui-select" id="filter-rating" name="rating">
+                <option value="">All</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Stars</option>
+            </select>
+        </div>
+        <div class="section run-time">
+            <label for="run-time">Run Time</label>
+            <input type="input" name="min-time" size="3" data-value="0" value="" /> to <input type="input" name="max-time" size="3" data-value="180" value=""/> minutes
+        </div>
+
+        <div class="section">
+            <label for="select-type">Documentary / Fiction</label>
+            <select class="ui-select" id="filter-type" name="type">
+                <option value="">All</option>
+                <option value="Documentary">Documentary</option>
+                <option value="Fiction">Fiction</option>
+            </select>
+        </div>
+        <div class="section show-worldwide">
+            <input type="checkbox" id="filter-worldwide" name="ww" value="true" />
+            <label for="filter-worldwide">Available worldwide</label>
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+        <input type="hidden" name="view" value="" />
+        <input type="hidden" name="sort" value="" />
+        <input type="hidden" name="ltr" value="" />
+        <input type="hidden" name="q" value="" />
+    </form>
+</div>
+
+<span class="topCorner"></span></div><div id="col2" class="current-results"><h1><span class="number">54</span> Music Videos | MVD <fb:like href="http://www.snagfilms.com/films/browse/category/mvd" send="false" layout="button_count" show_faces="false"></fb:like></h1>
+    <div class="main-promo clear">
+        <div class="logo">
+            <a href="http://mvdb2b.com/" target="_blank"><img src="http://ec.snagfilms.com/images/logos/mvd_logo.jpg" alt="MVD" /></a></div><div class="description">
+            <!-- headline with optional link -->
+            <h2>Behind-the-scenes with the industry's top artists. </h2>
+            <p><br />
+
+	<a href="http://www.snagfilms.com/films/title/madonna_sex_bomb_unauthorized/"><strong>Madonna</strong></a>. <a href="http://www.snagfilms.com/films/title/prince_the_glory_years_unauthorized/"><strong>Prince</strong></a>. <a href="http://www.snagfilms.com/films/title/kanye_west_unauthorized/"><strong>Kanye West</strong></a>.<a href="http://www.snagfilms.com/films/title/aerosmith_pumping_angel/"><strong> Aerosmith</strong></a>. MVD produces, releases, markets, and distributs music-centered videos focusing on the industry&rsquo;s top artists, taking you behind-the-scenes into the lives of the musicians behind the music.</p>
+        </div></div>
+<a name="top"></a>
+
+<div class="sort-view">
+        <div class="sort">
+            <form id="frm-sorting">
+                <label for="slt-sort">Sort By:</label>
+                <select class="ui-select" id="slt-sort">
+                    <option data-value="newest" value="/films/browse/category/mvd?sort=newest">Newest</option>
+                    <option data-value="likes" value="/films/browse/category/mvd?sort=likes">Most Liked</option>
+                    <option data-value="ratings" value="/films/browse/category/mvd?sort=ratings">Highest Rated</option>
+                    <option data-value="comments" value="/films/browse/category/mvd?sort=comments">Most Commented</option>
+                    <option data-value="alpha" value="/films/browse/category/mvd?sort=alpha">A-Z</option>
+                </select>
+            </form>
+        </div>
+        <div class="view">
+            <span>Grid View</span> | <a href="/films/browse/category/mvd?view=list" data-type="list" onclick="Snag.Utils.Pagi.pagesLoaded = 1;">List View</a>
+                </div>
+        <div class="rss">
+            <a href="http://feeds.feedburner.com/snagfilms/mvd" target="_blank">RSS</a>
+        </div>
+
+        <div class="email">
+                <a href="http://feedburner.google.com/fb/a/mailverify?uri=snagfilms/mvd" target="_blank" title="Get Email Updates on New Music Videos | MVD  Films.">Email Updates</a>
+            </div>
+        </div>  <!-- end sort-view -->
+<div class="results grid-view">
+    <div class="ad-wrapper">
+        <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215571/0/170/ADTECH;loc=100;target=_blank;key=mvd;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+<ul class="clear films-list">
+    <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_zookeeper" data-id="0000013d-acfb-d5f9-adbf-fffbd54a0000">
+    <img src="http://ec.snagfilms.com/images/thezookeeper/thezookeeper_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_zookeeper">The Zookeeper</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_zookeeper">The Zookeeper<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A city zoo in an eastern European country is abandoned when war ravages the city</p>
+    </div>
+    <div class="f-footer">
+        <p>(2001) 100  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-acfb-d5f9-adbf-fffbd54a0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/im_not_nuts_living_with_food_allergies" data-id="0000013d-941f-d5f9-adbf-ff5fa7d60000">
+    <img src="http://ec.snagfilms.com/images/imnotnutslivingwithfoodallergies/imnotnutslivingwithfoodallergies_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/im_not_nuts_living_with_food_allergies">I&#039;m Not Nuts: Living With F...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/im_not_nuts_living_with_food_allergies">I&#039;m Not Nuts: Living With Food Allergies<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An exploration of food allergy information and solutions through several families</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 84  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-941f-d5f9-adbf-ff5fa7d60000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/iggy_and_the_stooges_raw_power_live_in_the_hands_of_the_fans" data-id="0000013d-93e0-d5f9-adbf-ffe234160000">
+    <img src="http://ec.snagfilms.com/images/iggyandthestoogesrawpowerfans/iggyandthestoogesrawpowerfans_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/iggy_and_the_stooges_raw_power_live_in_the_hands_of_the_fans">Iggy and The Stooges: Raw P...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/iggy_and_the_stooges_raw_power_live_in_the_hands_of_the_fans">Iggy and The Stooges: Raw Power Live, in the Hands of the Fans<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A reinvigorated Iggy and the Stooges performing Raw Power and more at All Tomorrow&#039;s Party 2010</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 150  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-93e0-d5f9-adbf-ffe234160000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/history_lesson_part_1_punk_rock_in_los_angeles_in_1984" data-id="0000013d-93be-d5f9-adbf-fffe2ab90000">
+    <img src="http://ec.snagfilms.com/images/historylessoninpunkrock/historylessoninpunkrock_120X90.JPG" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/history_lesson_part_1_punk_rock_in_los_angeles_in_1984">History Lesson Part 1: Punk...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/history_lesson_part_1_punk_rock_in_los_angeles_in_1984">History Lesson Part 1: Punk Rock in Los Angeles In 1984<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Classic raw punk footage from 1984 Los Angeles, plus interviews</p>
+    </div>
+    <div class="f-footer">
+        <p>(1984) 57  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-93be-d5f9-adbf-fffe2ab90000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/h_h_dalai_lama_in_conversation_with_the_dalai_lama" data-id="0000013d-8ee6-d5f9-adbf-ffe674cc0000">
+    <img src="http://ec.snagfilms.com/images/inconversationwithdalailama/inconversationwithdalailama_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/h_h_dalai_lama_in_conversation_with_the_dalai_lama">H.H. Dalai Lama: In Convers...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/h_h_dalai_lama_in_conversation_with_the_dalai_lama">H.H. Dalai Lama: In Conversation with the Dalai Lama<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A conference with H.H. the Dalai Lama</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 165  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-8ee6-d5f9-adbf-ffe674cc0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/guns_and_weed_the_road_to_freedom" data-id="0000013d-8e7c-d2a7-abff-cf7ff06a0000">
+    <img src="http://ec.snagfilms.com/images/gunsandweed/gunsandweed_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/guns_and_weed_the_road_to_freedom">Guns and Weed: The Road To ...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/guns_and_weed_the_road_to_freedom">Guns and Weed: The Road To Freedom<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A stunning and entertaining examination of Constitutional issues in America</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 98  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-8e7c-d2a7-abff-cf7ff06a0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">4</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/barack_obama_the_power_of_change" data-id="0000013d-8dfc-d2a7-abff-cfff85c50000">
+    <img src="http://ec.snagfilms.com/images/barackobamathepowerofchange/barackobamathepowerofchange_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/barack_obama_the_power_of_change">Barack Obama: The Power of ...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/barack_obama_the_power_of_change">Barack Obama: The Power of Change<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Some of Barack Obama&#039;s most exciting, humorous and inspiring appearances on his road to the White House</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 108  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-8dfc-d2a7-abff-cfff85c50000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/joe_strummer_tribute_concert_cast_a_long_shadow" data-id="0000013d-8dd1-d2a7-abff-cfff47480000">
+    <img src="http://ec.snagfilms.com/images/joestrummertributeconcert/joestrummertributeconcert_120X90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/joe_strummer_tribute_concert_cast_a_long_shadow">Joe Strummer Tribute Concer...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/joe_strummer_tribute_concert_cast_a_long_shadow">Joe Strummer Tribute Concert: Cast a Long Shadow<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Tribute concert in honor of the Clash&#039;s Joe Strummer</p>
+    </div>
+    <div class="f-footer">
+        <p>(2010) 60  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-8dd1-d2a7-abff-cfff47480000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/andy_kaufman_the_death_of_andy_kaufman" data-id="0000013d-60aa-dc59-a3bf-62ea5f970000">
+    <img src="http://ec.snagfilms.com/images/andykaufman/andykaufman_120X90_2.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/andy_kaufman_the_death_of_andy_kaufman">Andy Kaufman: The Death Of ...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/andy_kaufman_the_death_of_andy_kaufman">Andy Kaufman: The Death Of Andy Kaufman<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>THE DEATH OF ANDY KAUFMAN; was it the greatest hoax of all time?</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 80  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-60aa-dc59-a3bf-62ea5f970000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/jenny_holzer_about_jenny_holzer_protect_me_from_what_i_want" data-id="0000013d-608c-dc59-a3bf-62ec97250000">
+    <img src="http://ec.snagfilms.com/images/jennyholzer/jennyholzer_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/jenny_holzer_about_jenny_holzer_protect_me_from_what_i_want">Jenny Holzer: Protect Me Fr...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/jenny_holzer_about_jenny_holzer_protect_me_from_what_i_want">Jenny Holzer: Protect Me From What I Want<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>For more than 30 years, Jenny Holzer&#039;s name has stood for a conceptual art that questions our perceptions and the way we are influenced by media and politics</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 52  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-608c-dc59-a3bf-62ec97250000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/toots_and_the_maytals_live_at_santa_monica_pier" data-id="b1c21370-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/tootsmaytals/tootsmaytals_120x90.jpg" alt="Toots and The Maytals - Live At Santa Monica Pier" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/toots_and_the_maytals_live_at_santa_monica_pier">Toots and The Maytals - Liv...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/toots_and_the_maytals_live_at_santa_monica_pier">Toots and The Maytals - Live At Santa Monica Pier<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A lively 60-minute performance from August 7, 1997</p>
+    </div>
+    <div class="f-footer">
+        <p>(2001) 63  mins /
+            <span class="stars s3"><span class="alt">3 Stars</span></span> / Likes (6) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="b1c21370-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/mary_j_blige_queen_of_hip_hop_soul" data-id="a8e7b020-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/maryjblige/maryjblige_120x90.jpg" alt="Mary J. Blige - Queen of Hip Hop Soul" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/mary_j_blige_queen_of_hip_hop_soul">Mary J. Blige - Queen of Hi...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/mary_j_blige_queen_of_hip_hop_soul">Mary J. Blige - Queen of Hip Hop Soul<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Mary J. Blige</p>
+    </div>
+    <div class="f-footer">
+        <p>(2004) 55  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (7) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a8e7b020-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/ashanti_princess_of_hip_hop" data-id="a4df9560-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/ashanti/ashanti_120x90.jpg" alt="Ashanti - Princess of Hip Hop" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/ashanti_princess_of_hip_hop">Ashanti - Princess of Hip Hop</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/ashanti_princess_of_hip_hop">Ashanti - Princess of Hip Hop<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Ashanti</p>
+    </div>
+    <div class="f-footer">
+        <p>(2004) 47  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a4df9560-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/louis_armstrong_king_of_jazz" data-id="9bc0fd20-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/louisarmstrong/louisarmstrong_120x90.jpg" alt="Louis Armstrong - King of Jazz" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/louis_armstrong_king_of_jazz">Louis Armstrong - King of Jazz</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/louis_armstrong_king_of_jazz">Louis Armstrong - King of Jazz<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A unique biography of Louis Armstrong, one of the greatest jazz musicians in history</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 50  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="9bc0fd20-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/black_eyed_peas_bring_in_the_noise_bring_in_the_phunk" data-id="996cace0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/blackeyedpeas/blackeyedpeas_120x90.jpg" alt="Black Eyed Peas - Bring in the Noise, Bring in the Phunk" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/black_eyed_peas_bring_in_the_noise_bring_in_the_phunk">Black Eyed Peas - Bring in ...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/black_eyed_peas_bring_in_the_noise_bring_in_the_phunk">Black Eyed Peas - Bring in the Noise, Bring in the Phunk<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>This DVD thoroughly explores the worldwide phenomenon that is the Black Eyed Peas</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 60  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="996cace0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/dead_kennedys_in_god_we_trust_inc_lost_tapes" data-id="92cfb670-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/deadkennedies/deadkennedies_120x90.jpg" alt="Dead Kennedys - In God We Trust Inc: Lost Tapes" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/dead_kennedys_in_god_we_trust_inc_lost_tapes">Dead Kennedys - In God We T...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/dead_kennedys_in_god_we_trust_inc_lost_tapes">Dead Kennedys - In God We Trust Inc: Lost Tapes<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>1981 studio and live footage of the classic Dead Kennedys&#039; EP</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 58  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (48) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="92cfb670-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/janet_jackson_exposed" data-id="9062ae10-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/janetjackson/janetjackson_120x90.jpg" alt="Janet Jackson - Exposed" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/janet_jackson_exposed">Janet Jackson - Exposed</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/janet_jackson_exposed">Janet Jackson - Exposed<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A documentary of her rise to fame and struggle to stay on top</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 60  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="9062ae10-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/metallica_phantom_puppets" data-id="8ebcc640-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/metallicaphantom/metallicaphantom_120x90.jpg" alt="Metallica - Phantom Puppets" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/metallica_phantom_puppets">Metallica - Phantom Puppets</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/metallica_phantom_puppets">Metallica - Phantom Puppets<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Interviews with one of metal&#039;s biggest icons</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 83  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (7) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8ebcc640-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/outkast_dare_to_be_different" data-id="8cb117c0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/outkast/outkast_120x90.jpg" alt="Outkast - Dare to Be Different" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/outkast_dare_to_be_different">Outkast - Dare to Be Different</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/outkast_dare_to_be_different">Outkast - Dare to Be Different<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Outkast</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 41  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (4) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8cb117c0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/snoop_dogg_unauthorized" data-id="8bedeed0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/snoopdogg/snoopdogg_120x90.jpg" alt="Snoop Dogg - Unauthorized" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/snoop_dogg_unauthorized">Snoop Dogg - Unauthorized</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/snoop_dogg_unauthorized">Snoop Dogg - Unauthorized<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Snoop Dogg</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 48  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8bedeed0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/james_brown_mr_dynamite_unauthorized" data-id="8925f530-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/jamesbrown/jamesbrown_120x90.jpg" alt="James Brown - Mr Dynamite Unauthorized" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/james_brown_mr_dynamite_unauthorized">James Brown - Mr Dynamite U...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/james_brown_mr_dynamite_unauthorized">James Brown - Mr Dynamite Unauthorized<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Reveals in much depth the myths and the truths surrounding the man who was respected by so many people</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 125  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (103) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="8925f530-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">8</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/eagles_california_nights" data-id="83bbb260-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/eaglescalifornianights/eaglescalifornianights_120x90.jpg" alt="Eagles - California Nights" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/eagles_california_nights">Eagles - California Nights</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/eagles_california_nights">Eagles - California Nights<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Features in-depth interviews revealing the many aspects that made the Eagles one of America&#039;s most loved bands</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 69  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="83bbb260-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/guns_n_roses_destructive_appetite" data-id="876a6280-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/gunsnroses/gunsnroses_120x90.jpg" alt="Guns 'N Roses - Destructive Appetite" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/guns_n_roses_destructive_appetite">Guns &#039;N Roses - Destructive...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/guns_n_roses_destructive_appetite">Guns &#039;N Roses - Destructive Appetite<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Contains over 150 minutes of interview footage, much of which is unedited and never seen before</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 79  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (24) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="876a6280-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/aerosmith_pumping_angel" data-id="82e3c8f0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/pumpingangel/pumpingangel_120x90.jpg" alt="Aerosmith - Pumping Angel" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/aerosmith_pumping_angel">Aerosmith - Pumping Angel</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/aerosmith_pumping_angel">Aerosmith - Pumping Angel<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Tons of in-depth interviews revealing the many aspects that made Aerosmith one of America&#039;s greatest Rock &#039;n Roll bands</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 45  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (7) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="82e3c8f0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/madonna_virgin" data-id="82211530-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/madonnavirgin/madonnavirgin_120x90.jpg" alt="Madonna - Virgin" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/madonna_virgin">Madonna - Virgin</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/madonna_virgin">Madonna - Virgin<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Countless interviews with the &#034;material girl&#034; exhibiting why she is adored and revered by her legions of fans worldwide</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 61  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (7) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="82211530-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/kiss_loves_you" data-id="81586e00-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/kisslovesyou/kisslovesyou_120x90.jpg" alt="KISS Loves You" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/kiss_loves_you">KISS Loves You</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/kiss_loves_you">KISS Loves You<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A wistful documentary about worldwide KISS nostalgia featuring rare treats like KISS in Stockholm 1976 </p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 72  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (59) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="81586e00-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/cab_calloway_hi_de_ho_and_other_movies" data-id="79de8510-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/cabcalloway/cabcalloway_120x90.jpg" alt="Cab Calloway - Hi-De-Ho and Other Movies" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/cab_calloway_hi_de_ho_and_other_movies">Cab Calloway - Hi-De-Ho and...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/cab_calloway_hi_de_ho_and_other_movies">Cab Calloway - Hi-De-Ho and Other Movies<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Showcasing the great Cab Calloway in a variety of formats and environments</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 101  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (20) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="79de8510-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/miles_davis_cool_jazz_sound" data-id="7918eb20-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/milesdavis/milesdavis_120x90.jpg" alt="Miles Davis - Cool Jazz Sound" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/miles_davis_cool_jazz_sound">Miles Davis - Cool Jazz Sound</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/miles_davis_cool_jazz_sound">Miles Davis - Cool Jazz Sound<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Exemplary television program (New York, 1959) with the Miles Davis Quintet featuring John Coltrane, Wynton Kelly, Paul Chambers </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 30  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (64) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="7918eb20-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/nat_king_cole_the_legendary_nat_king_cole" data-id="7863a4e0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/natkingcole/natkingcole_120x90.jpg" alt="Nat King Cole - The Legendary Nat King Cole" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/nat_king_cole_the_legendary_nat_king_cole">Nat King Cole - The Legenda...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/nat_king_cole_the_legendary_nat_king_cole">Nat King Cole - The Legendary Nat King Cole<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Nat King Cole</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 65  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (24) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="7863a4e0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/war_of_33_letters_from_beruit" data-id="7519d110-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/warof33/warof33_120x90.jpg" alt="War of 33: Letters from Beruit" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/war_of_33_letters_from_beruit">War of 33: Letters from Beruit</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/war_of_33_letters_from_beruit">War of 33: Letters from Beruit<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An intimate, personal and powerful telling of the story of the 2006 war in Lebanon</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 30  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="7519d110-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/deserter" data-id="72455450-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/deserter/deserter_120x90.jpg" alt="Deserter" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/deserter">Deserter</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/deserter">Deserter<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A political road movie with one of the few happy endings that this war has given us</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 23  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="72455450-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/black_and_gold" data-id="711b7a50-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/blackandgold/blackandgold_120x90.jpg" alt="Black and Gold" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/black_and_gold">Black and Gold</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/black_and_gold">Black and Gold<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>&#034;... a potent portrait of bootstraps idealism in an embattled community... deserves to be seen.&#034; -Dennis Harvey, VARIETY</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 76  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (28) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="711b7a50-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lil_jon_unauthorized" data-id="6e77d190-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/liljonunauthorized/liljonunauthorized_120x90.jpg" alt="Lil Jon - Unauthorized" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lil_jon_unauthorized">Lil Jon - Unauthorized</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lil_jon_unauthorized">Lil Jon - Unauthorized<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Lil Jon</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 62  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="6e77d190-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/queen_latifah_unauthorized" data-id="6cccb9a0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/latifahunauthorized/latifahunauthorized_120x90.jpg" alt="Queen Latifah - Unauthorized" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/queen_latifah_unauthorized">Queen Latifah - Unauthorized</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/queen_latifah_unauthorized">Queen Latifah - Unauthorized<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A complete and unauthorized DVD biography on Queen Latifah</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 55  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="6cccb9a0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/frank_sinatra_when_you_are_smiling" data-id="5d025de0-b232-11e0-8766-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/franksinatra/franksinatra_120x90.jpg" alt="Frank Sinatra - When You Are Smiling" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/frank_sinatra_when_you_are_smiling">Frank Sinatra - When You Ar...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/frank_sinatra_when_you_are_smiling">Frank Sinatra - When You Are Smiling<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>November 1957 show feat. Dagmar, Tim Herbert and Don Saxon, Eileen Barton, pianist Joey Bushkin and June Hutton</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 60  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (13) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="5d025de0-b232-11e0-8766-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/bon_jovi_jersey_kid" data-id="68a4e710-b220-11e0-85c8-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/MVD/bonjovi/bonjovi_120x90.jpg" alt="Bon Jovi - DVD Collector's Box" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/bon_jovi_jersey_kid">Bon Jovi: Jersey Kid</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/bon_jovi_jersey_kid">Bon Jovi: Jersey Kid<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Two disc Bon Jovi documentary set - Part 1</p>
+    </div>
+    <div class="f-footer">
+        <p>(2011) 62  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="68a4e710-b220-11e0-85c8-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                </ul>
+
+
+
+    <div class="pagination">
+            <div class="bottom-title-count">
+            <span class="number">54</span> Music Videos | MVD</div>
+    <ul class="pagi clrfix">
+        <li class="prev disabled"><a href="#">previous</a></li>
+        <li class="number">1<span> of </span> 2</li>
+        <li class="next"><a href="/films/browse/category/mvd?offset=36">next</a></li>
+    </ul>
+</div>
+    </div> <!-- end results -->
+</div></div><div id="pageFooter"><div class="recirculation-module">
+        <div class="carousel">
+
+        </div>
+    </div><div class="footer">
+    <a class="fLogo" href="/">SnagFilms</a>
+    <div class="clear-both"></div>
+    <ul class="fnav clrfix">
+        <li><a class="noPad" href="/">HOME</a></li>
+        <li><a href="/films/browse/category/">BROWSE FILMS</a></li>
+        <li><a href="/films/browse/channel/">CHANNELS</a></li>
+        <li><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></li>
+        <li class="search">
+            <form id="ffrm1" class="sBar clrfix" action="/films/search" method="get">
+                <input name="q" id="fquery" class="sBox" type="text" placeholder="Search 3,000 Films" />
+                <input class="search" type="submit" value="SEARCH" />
+                <div class="clear-both"></div>
+            </form>
+        </li>
+    </ul>
+    <div class="fsubnav clrfix">
+        <ul class="clrfix flinks">
+            <li>
+                    <a href="/films/about">About Our Site</a></li>
+            <li>
+                    <a href="/films/our-company">Our Company</a></li>
+            <li>
+                    <a href="/films/team">Team</a></li>
+            <li>
+                    <a href="https://getsatisfaction.com/snagfilms" target="_blank">Feedback</a></li>
+            <li>
+                    <a href="/films/frequently_asked_questions">FAQ</a></li>
+            <li>
+                    <a href="/films/sitemap">Sitemap</a></li>
+            <li>
+                    <a href="http://itunes.apple.com/us/app/snagfilms/id404906625?mt=8">iPad / iPhone App</a></li>
+            <li>
+                    <a href="https://market.android.com/details?id=air.com.snagfilms&feature=search_result#?t=W251bGwsMSwyLDEsImFpci5jb20uc25hZ2ZpbG1zIl0." target="_blank">Android</a></li>
+            <li>
+                    <a href="http://www.amazon.com/SnagFilms-Inc-Beta/dp/B006BGXIO2/ref=sr_1_2?ie=UTF8&qid=1323709141&sr=8-2" target="_blank">Kindle Fire</a></li>
+            <li>
+                    <a href="http://appworld.blackberry.com/webstore/content/64991?lang=en" target="_blank">Blackberry</a></li>
+            <li>
+                    <a href="http://snagfilms.tumblr.com/post/4776522589/snagfilms-top-quality-documentaries-arrive-on-boxee" target="_blank">Boxee</a></li>
+            <li>
+                    <a href="http://www.businesswire.com/news/home/20110531006294/en/SnagFilms-launches-Roku-Acclaimed-Non-Fiction-Films" target="_blank">Roku</a></li>
+            <li>
+                    <a href="http://store.sony.com/webapp/wcs/stores/servlet/ContentDisplayView?hideHeaderFooter=false&storeId=10151&catalogId=10551&langId=-1&cmsId=STATICS_BIV_showcase" target="_blank">Sony</a></li>
+            <li>
+                    <a href="/films/submissions">Submit Your Film</a></li>
+            <li>
+                    <a href="/films/blog/category/press">Press</a></li>
+            <li>
+                    <a href="/films/blog">Blog</a></li>
+            <li>
+                    <a href="/films/advertise">Advertise</a></li>
+            <li>
+                    <a href="http://indieWIRE.com" target="_blank">Indiewire</a></li>
+            <li>
+                    <a href="http://www.youtube.com/user/snagfilms" target="_blank">YouTube</a></li>
+            <li>
+                    <a href="/films/jobs">Jobs</a></li>
+            <li>
+                    <a href="/films/privacy">Privacy</a></li>
+            <li>
+                    <a href="/films/terms">Terms</a></li>
+            <li>
+                    </li>
+            </ul>
+        <ul class="clrfix fconnect">
+            <li><span>Connect With SnagFilms:</span></li>
+                <li><a target="_blank" href="http://www.facebook.com/snagfilms">Facebook</a></li>
+                <li><a target="_blank" href="http://twitter.com/#!/snagfilms">Twitter</a></li>
+                <li><a target="_blank" href="/films/rss">RSS</a></li>
+                <li class="nl">
+                    <a id="newsletter-footer" class="last newsletter" href="#">Newsletter</a>
+                    <div id="newsletter-footer-frame-wrap" class="popup hidden ">
+    <iframe class="nl-frame" id="newsletter-footer-frame" src="" scrolling="no"></iframe>
+</div> <!-- end popup --></li>
+            </ul>
+    </div> <!-- end fsubnav -->
+    <div class="cright">&copy; Copyright 2008-2013 SnagFilms Inc. All Rights Reserved</div>
+    </div> <!-- end footer -->
+
+<script type="text/javascript">
+  SNAG.loadOnReady.add(function() {
+    var js_file = "http://cdn.snagfilms.com/resource/assets/scripts/jquery.autocomplete.c95ce2984cbf94aba9816e5891ca913d.js"; 
+    $.getScript(js_file, function(){
+      var options, a;
+      options = { serviceUrl:'/apis/titlesearch.json',
+	  			  minChars:3,
+	  			  deferRequestBy: 100, //miliseconds
+	  			  width:375,
+	  			  onSelect: function(value, data){window.location.href = data;}
+	  			  };
+      a = $('#query').autocomplete(options);
+      a = $('#fquery').autocomplete(options);
+      a.enable();
+    });
+	}, 'low');
+</script>
+
+<div id="getsat-widget-4505"></div>
+
+<script>
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://" : "http://") + "loader.engage.gsfn.us/loader.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  SNAG.loadOnReady.add(function() {if (typeof GSFN !== "undefined"){ GSFN.loadWidget(4505,{"containerId":"getsat-widget-4505"});}}, 'low');
+</script>
+
+<script type="text/javascript">_ga.trackFacebook();</script>
+</div></div><div id="queue-login" class="alt">Please login. <button class="btn-fb">Login</button></div>
+        <!-- Quantcast -->    
+        <script type="text/javascript">
+          var _qevents = _qevents || [];
+          _qevents.push( { qacct:"p-c1zCil38GHR-I"} );
+        </script>
+        <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1" alt="Quantcast"/></div>
+        </noscript>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery.tools.min.be31d9c385a70e9332e1d2c4f433d4de.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/swfobject.min.f24810ced6e0d3f40695dba6b8e59d96.js"></script>
+
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery-ui-1.8.22.custom.min.9b9d4784ea7921f3f7712a9ca9600c69.js"></script>
+<script type="text/javascript">   
+      SNAG.loadOnReady.add(function(){ 
+        
+        
+        window.fbAsyncInit = function() {
+          FB.init({
+              appId: '227991737252697',
+              status : true,
+              cookie : true,
+              oauth: true,
+              email: true,
+              xfbml  : true
+          });
+        
+          for (var i=0;i<SNAG.onFBInit.length;i++) {
+            if (typeof SNAG.onFBInit[i] === 'function') {
+              SNAG.onFBInit[i](FB);
+            }
+          }            
+
+        } //window.fbAsyncInit
+        
+        
+        $('.login a').on('click', function(event) { 
+          event.preventDefault();
+          
+          
+          document.cookie = 'fbsr_227991737252697 = ""; expired=0; path=/; domain=.snagfilms.com';
+          
+          FB.logout(function() {
+		    				      
+				location.reload();
+			  		
+          });
+        });
+
+		 
+		  
+        (function(d){
+          var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+          js = d.createElement('script'); js.id = id; js.async = true;
+          js.src = "//connect.facebook.net/en_US/all.js";
+          d.getElementsByTagName('head')[0].appendChild(js);
+        }(document)); 
+      
+        
+
+        $.getScript("http://cdn.snagfilms.com/resource/assets/scripts/footer.fe07b593fd7360f3b76858b7fe5aa8e8.js", function(){});             
+      },'low');
+      
+    </script>
+    
+  <script type="text/javascript">     
+
+    $(document).ready(function() {        
+      SNAG.loadOnReady.execute('high');      
+      if(SNAG.deferLoad) {      
+        setTimeout(function(){
+          if(!SNAG.loadFinished) {
+            SNAG.runWhenReady();
+          }
+        }, 10000);  
+      }
+      else {
+        SNAG.runWhenReady();
+      }           
+          
+    });
+  </script>      
+
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+            Sailthru.setup({
+                domain: 'horizon.snagfilms.com'
+            });
+        };
+    })();
+</script>
+      
+  </body>
+</html>

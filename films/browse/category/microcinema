@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<!-- Build: 1.0.0.2100 | psd.hostname: N/A | hostname: ip-10-158-76-14.ec2.internal  -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video#">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <title>Microcinema</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="title" content="Microcinema" />
+		<meta name="description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta name="keywords" content="Microcinema, documentary, documentaries, watch, free, online, best, snag films, SnagFilms, Snag Films, SnagFilm, Snag Film, IndieWire, Indie Wire, Indie Film, Independent Film, " />
+		<link rel="icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="shortcut icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="canonical" href="http://www.snagfilms.com/films/browse/category/microcinema" />
+		<meta name="msvalidate.01" content="F36E644468CC58F1E161CA94493941B0" />
+<link rel="image_src" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<link rel="media:image" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta name="medium" content="article" />
+		<meta property="og:image" content="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta property="og:description" content="Watch free movies and documentaries at SnagFilms." />
+		<meta property="og:url" content="http://www.snagfilms.com/films/browse/category/microcinema" />
+		<meta property="og:site_name" content="SnagFilms" />
+		<meta property="fb:app_id" content="227991737252697" />
+		<meta property="fb:admins" content="100001749790181" /><link rel="stylesheet" type="text/css" href="http://cdn.snagfilms.com/resource/assets/css/global.0077af24ce0cc875a337fab8e207f685.css" />
+<!--[if gte IE 9]> <style type="text/css">.gradient {filter: none;} </style><![endif]-->
+
+</head>
+<body>
+<div id="fb-root"></div>
+  <script type="text/javascript">    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-1']);
+    _gaq.push(['_setDomainName', '.snagfilms.com']);
+    _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+
+
+<!-- -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try{
+        window.pageTracker = _gat._getTracker("UA-3922545-1");
+        //pageTracker._trackPageview();
+    } catch(err) {
+        console.log("Error creating the tracker");
+    }
+</script>
+<!-- Google Analytics Social Button Tracking -->
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/ga_social_tracking.42bfd3cd629c0eba81ccd3c613523d2b.js"></script>
+<!-- Load Twitter JS-API asynchronously -->
+<script>
+    (function(){
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+        // Setup a callback to track once the script loads.
+        twitterWidgets.onload = _ga.trackTwitter;
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+
+<script type="text/javascript">
+  isFilmPage = false;
+  var SNAG = {};
+  SNAG.loggedIn = false;
+  SNAG.onFBInit = [];
+  SNAG.deferLoad = false;
+  SNAG.loadFinished = false;    
+  SNAG.loadOnReady = (function() {   
+    var lq = {high: [],med: [],low: []};     
+    return {    
+      add: function(action, priority) {if (lq.hasOwnProperty(priority)) {lq[priority].push(action);}},
+      execute: function(priority) {if(lq[priority]) {for (var i=0; i< lq[priority].length; i++){try {lq[priority][i]();} catch(err){}}}}      
+    };
+  })();  
+  SNAG.runWhenReady = function () {
+    if(!SNAG.loadFinished) {
+      var main_js = "http://cdn.snagfilms.com/resource/assets/scripts/main.dd4a8da6051904cde583489063038ae3.js"; 
+      $.getScript(main_js, function(){
+        SNAG.loadOnReady.execute('med');
+        SNAG.loadOnReady.execute('low');               
+      });
+      
+      SNAG.onFBInit.push(function(fb_object) {            
+        fb_object.Event.subscribe('auth.authResponseChange', Snag.fb.authResponseChange);
+        fb_object.Event.subscribe('edge.create', Snag.fb.like);
+        fb_object.Event.subscribe('comment.create', Snag.fb.commentCreate);
+        fb_object.Event.subscribe('comment.remove', Snag.fb.commentRemove);
+      });
+           
+      SNAG.loadFinished = true;      
+     // console.log('SNAG.runWhenReady');
+    }  
+  };
+  
+  
+        
+        _gaq.push(['_setCustomVar',
+            1, 
+            'Visitor Type', 
+            'Unauthenticated', 
+            1 
+        ]);        
+  
+</script>
+<div id="pageWrapper" class="grid2"><div id="pageHeader">
+    <div class="top clrfix">
+        <a class="logo" href="/">SnagFilms</a>
+        <div class="headerAd">
+            <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215570/0/225/ADTECH;loc=100;target=_blank;key=microcinema;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+        <div class="clear-both"></div>
+    </div> <!-- end top -->
+    <div class="loginBar">
+        <div class="main-login clrfix">
+            <ul class="clear">
+                <li class="facebook last">
+            <button class="btn-fb">Login or Sign Up</button>
+        </li>
+    </ul>
+        </div><!-- end main login -->
+        </div> <!-- end login Bar -->    
+    <div class="navBar">
+        <ul class="nav clrfix">
+            <li class="home">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/">HOME</a></div>
+            </li>
+            <li class="tab-browse">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/">BROWSE FILMS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="/films/browse/?sort=likes">Most Liked</a></li>
+                        <li><a href="/films/browse/?sort=newest">New Arrivals</a></li>
+                        <li><a href="/films/browse/topics">All Topics</a></li>
+                        <li><a href="/films/browse/?sort=alpha">A-Z</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Categories</h3></li>
+                        <li><a title="Action & Adventure Movies" href="/films/browse/category/adventure_adventure/">Action &amp; Adventure</a></li>
+                        <li><a title="Art & Music Movies" href="/films/browse/category/art_music/">Art &amp; Music</a></li>
+                        <li><a title="Award-Winning Movies" href="/films/browse/category/award_winning/**">Award-Winning</a></li>
+                        <li><a title="Celebrities & Fame  Movies" href="/films/browse/category/celebrities_fame/">Celebrities &amp; Fame </a></li>
+                        <li><a title="Comedy Movies" href="/films/browse/category/comedy/">Comedy</a></li>
+                        <li><a title="Drama Movies" href="/films/browse/category/drama">Drama</a></li>
+                        <li><a title="Biography Movies" href="/films/browse/category/real_people_true_stories/**">Biography</a></li>
+                        <li><a title="Kids & Family Movies" href="/films/browse/category/family_friendly/**">Kids &amp; Family</a></li>
+                        <li><a title="Festivals Movies" href="/films/browse/category/festival">Festivals</a></li>
+                        <li><a title="Health & Food Movies" href="/films/browse/category/health_food/">Health &amp; Food</a></li>
+                        <li><a title="History Movies" href="/films/browse/category/history">History</a></li>
+                        <li><a title="Arts & Culture Movies" href="/films/browse/category/pop_culture/**">Arts &amp; Culture</a></li>
+                        <li><a title="Romance Movies" href="/films/browse/category/romance/">Romance</a></li>
+                        <li><a title="Science & Nature Movies" href="/films/browse/category/science_nature">Science &amp; Nature</a></li>
+                        <li><a title="Short Films" href="/films/browse/category/short_films/">Short Films</a></li>
+                        <li><a title="Politics & Social Issues Movies" href="/films/browse/category/social_issues_politics">Politics &amp; Social Issues</a></li>
+                        <li><a title="Thriller & Suspense Movies" href="/films/browse/category/thriller_and_suspense">Thriller &amp; Suspense</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/category/">All Categories <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="channels selected">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/channel/">CHANNELS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>POPULAR CHANNELS</h3></li>
+                        <li><a title="Celeb Interviews | Shootout Movies" href="/films/browse/category/shootout">Celeb Interviews | Shootout</a></li>
+                        <li><a title="Content Film Movies" href="/films/browse/category/content_film">Content Film</a></li>
+                        <li><a title="Alternative | Disinformation Movies" href="/films/browse/category/disinformation">Alternative | Disinformation</a></li>
+                        <li><a title="Exploration | XPLR Movies" href="/films/browse/category/xplr">Exploration | XPLR</a></li>
+                        <li><a title="Kino Lorber Movies" href="/films/browse/category/kino_lorber">Kino Lorber</a></li>
+                        <li><a title="Lionsgate Movies" href="/films/browse/category/lionsgate">Lionsgate</a></li>
+                        <li><a title="Music Videos | MVD  Movies" href="/films/browse/category/mvd">Music Videos | MVD </a></li>
+                        <li><a title="National Geographic Movies" href="/films/browse/category/national_geographic">National Geographic</a></li>
+                        <li><a title="New Video Movies" href="/films/browse/category/new_video">New Video</a></li>
+                        <li><a title="Shorts | Media that Matters Movies" href="/films/browse/category/media_that_matters">Shorts | Media that Matters</a></li>
+                        <li><a title="Travel | Content Republic Movies" href="/films/browse/category/content_republic">Travel | Content Republic</a></li>
+                        <li><a title="Wildlife | Jeff Corwin Movies" href="/films/browse/category/feeling_the_heat_with_jeff_corwin">Wildlife | Jeff Corwin</a></li>
+                        <li><a title="Sundance Movies" href="/sundance">Sundance</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/channel/">All Channels <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="filmanthropy">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>MOVIES THAT MATTER</h3></li>
+                        <li><a href="/films/browse/filmanthropy/build-community">Build Community</a></li>
+                        <li><a href="/films/browse/filmanthropy/celebrate-diversity">Celebrate Diversity</a></li>
+                        <li><a href="/films/browse/filmanthropy/champion-human-rights">Champion Human Rights</a></li>
+                        <li><a href="/films/browse/filmanthropy/connect-to-a-higher-power">Connect to a Higher Power</a></li>
+                        <li><a href="/films/browse/filmanthropy/empower-women">Empower Women</a></li>
+                        <li><a href="/films/browse/filmanthropy/encourage-healthy-living">Encourage Healthy Living</a></li>
+                        <li><a href="/films/browse/filmanthropy/examine-globalization">Examine Globalization</a></li>
+                        <li><a href="/films/browse/filmanthropy/exercise-democracy">Exercise Democracy</a></li>
+                        <li><a href="/films/browse/filmanthropy/explore-arts-and-culture">Explore Arts and Culture</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-disease">Fight Disease</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-poverty">Fight Poverty</a></li>
+                        <li><a href="/films/browse/filmanthropy/investigate-the-natural-world">Investigate the Natural World</a></li>
+                        <li><a href="/films/browse/filmanthropy/learn-from-history">Learn from History</a></li>
+                        <li><a href="/films/browse/filmanthropy/promote-peace">Promote Peace</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-our-children">Protect Our Children</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-the-environment">Protect the Environment</a></li>
+                        <li><a href="/films/browse/filmanthropy/pursue-your-passion">Pursue Your Passion</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/filmanthropy/">All Causes <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="nav-queue">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="#">MY QUEUE </a></div>
+                <div class="dropdown">
+                    <div class="queue-login">
+                                        <b>Please login or register to save films to your queue and more.</b>
+                                        <button class="btn-fb">Login with Facebook</button>
+                                    </div>
+                                </div> <!-- end dropdown -->
+</li>
+            <li class="search">
+                <form id="frm1" class="sBar clear" action="/films/search" method="get">
+                    <input name="q" class="placeholder sBox" id="query" type="text" placeholder="Search 3,000 Films" />
+                        <input class="search" type="submit" value="SEARCH" />
+                </form>
+                <div class="clear-both"></div>
+            </li>
+        </ul>
+    </div> <!-- end nav bar -->
+    </div> <!-- end page header -->
+
+<div id="contentWrapper" class="browse search clrfix"><script>
+if (location.hash != "") {
+	var c = Snag.Utils.cookie.get(Snag.browse.cookieName);
+	if (c) {
+	    location.href = c;
+	}
+}
+
+</script><ul class="breadcrumb clrfix">
+    <li><a href="/">Home</a>&nbsp;&nbsp;></li>
+    <li><a href="/films/browse/">Browse Films</a>&nbsp;&nbsp;></li>
+            <li>Microcinema</li>
+        </ul><div id="col1"><div class="filter-by">
+    <h3>Narrow Results
+    <span class="topCorner"></span>
+    <span class="topCorner bottomCorner"></span></h3>
+
+    <form id="frm-filter" method="get">
+        <div class="section">
+            <label for="select-rating">Rating</label>
+            <select class="ui-select" id="filter-rating" name="rating">
+                <option value="">All</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Stars</option>
+            </select>
+        </div>
+        <div class="section run-time">
+            <label for="run-time">Run Time</label>
+            <input type="input" name="min-time" size="3" data-value="0" value="" /> to <input type="input" name="max-time" size="3" data-value="180" value=""/> minutes
+        </div>
+
+        <div class="section">
+            <label for="select-type">Documentary / Fiction</label>
+            <select class="ui-select" id="filter-type" name="type">
+                <option value="">All</option>
+                <option value="Documentary">Documentary</option>
+                <option value="Fiction">Fiction</option>
+            </select>
+        </div>
+        <div class="section show-worldwide">
+            <input type="checkbox" id="filter-worldwide" name="ww" value="true" />
+            <label for="filter-worldwide">Available worldwide</label>
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+        <input type="hidden" name="view" value="" />
+        <input type="hidden" name="sort" value="" />
+        <input type="hidden" name="ltr" value="" />
+        <input type="hidden" name="q" value="" />
+    </form>
+</div>
+
+<span class="topCorner"></span></div><div id="col2" class="current-results"><h1><span class="number">17</span> Microcinema Films <fb:like href="http://www.snagfilms.com/films/browse/category/microcinema" send="false" layout="button_count" show_faces="false"></fb:like></h1>
+    <a name="top"></a>
+
+<div class="sort-view">
+        <div class="sort">
+            <form id="frm-sorting">
+                <label for="slt-sort">Sort By:</label>
+                <select class="ui-select" id="slt-sort">
+                    <option data-value="newest" value="/films/browse/category/microcinema?sort=newest">Newest</option>
+                    <option data-value="likes" value="/films/browse/category/microcinema?sort=likes">Most Liked</option>
+                    <option data-value="ratings" value="/films/browse/category/microcinema?sort=ratings">Highest Rated</option>
+                    <option data-value="comments" value="/films/browse/category/microcinema?sort=comments">Most Commented</option>
+                    <option data-value="alpha" value="/films/browse/category/microcinema?sort=alpha">A-Z</option>
+                </select>
+            </form>
+        </div>
+        <div class="view">
+            <span>Grid View</span> | <a href="/films/browse/category/microcinema?view=list" data-type="list" onclick="Snag.Utils.Pagi.pagesLoaded = 1;">List View</a>
+                </div>
+        <div class="rss">
+            <a href="/films/feeds/films?channel=Microcinema" target="_blank">RSS</a>
+        </div>
+
+        </div>  <!-- end sort-view -->
+<div class="results grid-view">
+    <div class="ad-wrapper">
+        <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215571/0/170/ADTECH;loc=100;target=_blank;key=microcinema;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+<ul class="clear films-list">
+    <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_ancient_world_according_to_terry_jones_surprising_history_of_sex_and_love" data-id="0000013e-18ed-d68f-afbe-9dfd23580000">
+    <img src="http://ec.snagfilms.com/images/terryjonessexandlove/terryjonesexandlove_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_ancient_world_according_to_terry_jones_surprising_history_of_sex_and_love">The Ancient World According...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_ancient_world_according_to_terry_jones_surprising_history_of_sex_and_love">The Ancient World According to Terry Jones: Surprising History of Sex and Love<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A look throughout history, tracing the shift in social attitudes and practices towards sex</p>
+    </div>
+    <div class="f-footer">
+        <p>(1998) 48  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013e-18ed-d68f-afbe-9dfd23580000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/heavy_water_a_film_for_chernobyl" data-id="0000013e-18db-d68f-afbe-9dff82b40000">
+    <img src="http://ec.snagfilms.com/images/heavywater/heavywater_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/heavy_water_a_film_for_chernobyl">Heavy Water: A Film for Che...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/heavy_water_a_film_for_chernobyl">Heavy Water: A Film for Chernobyl<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>The story of the Chernobyl nuclear explosion and its catastrophic aftermath</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 52  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013e-18db-d68f-afbe-9dff82b40000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/from_the_ground_up" data-id="0000013e-18cc-d68f-afbe-9dfd2a140000">
+    <img src="http://ec.snagfilms.com/images/fromthegroundup/fromthegroundup_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/from_the_ground_up">From The Ground Up</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/from_the_ground_up">From The Ground Up<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An insightful look at how an ordinary cup of coffee occupies center stage in the world economy</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 54  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013e-18cc-d68f-afbe-9dfd2a140000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/in_search_of_mozart" data-id="0000013d-e69b-dcd0-a9bd-f6ffc3e40000">
+    <img src="http://cdn.snagfilms.com/3b/9e/10e5257e46edbcdc7bdb5afdfd91/insearchofmozart_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/in_search_of_mozart">In Search of Mozart</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/in_search_of_mozart">In Search of Mozart<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>The first feature-length documentary on Mozart&#039;s life</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 128  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-e69b-dcd0-a9bd-f6ffc3e40000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_rome" data-id="0000013d-e080-dcd0-a9bd-f6ff8b2c0000">
+    <img src="http://ec.snagfilms.com//images/terryjoneshiddenhistoryofrome/terryjonesrome_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_rome">The Ancient World According...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_rome">The Ancient World According to Terry Jones: Hidden History of Rome<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Host Terry Jones investigates the daily lives of ancient Romans</p>
+    </div>
+    <div class="f-footer">
+        <p>(1998) 50  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-e080-dcd0-a9bd-f6ff8b2c0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_egypt" data-id="0000013d-e07f-dcd0-a9bd-f67fcbed0000">
+    <img src="http://ec.snagfilms.com/images/terryjoneshiddenhistoryofegypt/terryjonesegypt_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_egypt">The Ancient World According...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_ancient_world_according_to_terry_jones_hidden_history_of_egypt">The Ancient World According to Terry Jones: Hidden History of Egypt<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Host Terry Jones investigates the daily lives of ancient Egyptians</p>
+    </div>
+    <div class="f-footer">
+        <p>(1998) 50  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013d-e07f-dcd0-a9bd-f67fcbed0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_collector_allan_stones_life_in_art" data-id="0000013a-8f14-dc7f-a1fb-ff5cc5ed0000">
+    <img src="http://ec.snagfilms.com/images/microcinema/collector_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_collector_allan_stones_life_in_art">The Collector: Allan Stone&#039;...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_collector_allan_stones_life_in_art">The Collector: Allan Stone&#039;s Life In Art<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An exploration of the career of gallery owner/art collector Allan Stone</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 62  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-8f14-dc7f-a1fb-ff5cc5ed0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/project_798_new_art_in_new_china" data-id="0000013a-8f08-dc7f-a1fb-ff5892410000">
+    <img src="http://ec.snagfilms.com/images/microcinema/project798_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/project_798_new_art_in_new_china">Project 798: New Art in China</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/project_798_new_art_in_new_china">Project 798: New Art in China<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Art within Art: Project 798, piece of contemporary art itself, mimics its subject matter about the Chinese contemporary art scene; it gets meta</p>
+    </div>
+    <div class="f-footer">
+        <p>(2002) 62  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-8f08-dc7f-a1fb-ff5892410000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/art_city_3_a_ruling_passion" data-id="0000013a-74c3-dc7f-a1fb-7edbe8500000">
+    <img src="http://ec.snagfilms.com/images/microcinema/artcity3_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/art_city_3_a_ruling_passion">Art City #3: A Ruling Passion</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/art_city_3_a_ruling_passion">Art City #3: A Ruling Passion<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>ART CITY #3: A RULING PASSION plumbs issues that affect artists - preoccupations of startling universality - like community, motivation and controversy, finding one’s audience, and just “getting it right”</p>
+    </div>
+    <div class="f-footer">
+        <p>(2002) 58  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-74c3-dc7f-a1fb-7edbe8500000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/art_city_2_simplicity" data-id="0000013a-74bf-dc7f-a1fb-7effba7a0000">
+    <img src="http://ec.snagfilms.com/images/microcinema/artcity2_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/art_city_2_simplicity">Art City #2: Simplicity</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/art_city_2_simplicity">Art City #2: Simplicity<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>SIMPLICITY addresses artists’ relations with the press, feelings about showing one’s work, distilling concepts into an essence, and what it means to succeed in the art world</p>
+    </div>
+    <div class="f-footer">
+        <p>(2002) 59  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-74bf-dc7f-a1fb-7effba7a0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/future_by_design" data-id="0000013a-74bd-dc7f-a1fb-7efd8f8f0000">
+    <img src="http://ec.snagfilms.com/images/microcinema/futurebydesign_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/future_by_design">Future By Design</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/future_by_design">Future By Design<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>FUTURE BY DESIGN shares the life and far-reaching vision of Jacque Fresco, considered by many to be a modern day Da Vinci</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 90  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-74bd-dc7f-a1fb-7efd8f8f0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/art_city_1_making_it_in_manhattan" data-id="0000013a-6a50-df3a-a77f-eff529dc0000">
+    <img src="http://ec.snagfilms.com/images/microcinema/artcity1_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/art_city_1_making_it_in_manhattan">Art City #1: Making It In M...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/art_city_1_making_it_in_manhattan">Art City #1: Making It In Manhattan<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>From abstraction to figuration, from installation to conceptual art, from the privacy of the doctor&#039;s office to the posh gallery opening, MAKING IT IN MANHATTAN captures the reality of a special world</p>
+    </div>
+    <div class="f-footer">
+        <p>(1996) 58  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-6a50-df3a-a77f-eff529dc0000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/in_search_of_beethoven" data-id="0000013a-65e8-df3a-a77f-ededc6c20000">
+    <img src="http://ec.snagfilms.com/images/microcinema/beethoven_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/in_search_of_beethoven">In Search of Beethoven</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/in_search_of_beethoven">In Search of Beethoven<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>IN SEARCH OF BEETHOVEN offers a comprehensive documentary about the life and works of the great composer</p>
+    </div>
+    <div class="f-footer">
+        <p>(2009) 139  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-65e8-df3a-a77f-ededc6c20000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/words_of_advice" data-id="0000013a-65e3-df3a-a77f-ede769180000">
+    <img src="http://ec.snagfilms.com/images/wordsofadvice/wordsofadvice_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/words_of_advice">Words of Advice: William S....</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/words_of_advice">Words of Advice: William S. Burroughs on the Road<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>This film documents the 1983 travels of William S. Burroughs&#039; throughout Scandinavia</p>
+    </div>
+    <div class="f-footer">
+        <p>(2007) 74  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="0000013a-65e3-df3a-a77f-ede769180000" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/conceiving_ada" data-id="27e9b100-e935-11e0-846c-123139220831">
+    <img src="http://ec.snagfilms.com/images/conceivingada/conceivingada_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/conceiving_ada">Conceiving Ada</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/conceiving_ada">Conceiving Ada<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Emmy Coer, a computer genius, devises a method of communicating with the past by tapping into undying information waves</p>
+    </div>
+    <div class="f-footer">
+        <p>(1997) 84  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="27e9b100-e935-11e0-846c-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/teknolust" data-id="5e6cdb20-e92c-11e0-846c-123139220831">
+    <img src="http://ec.snagfilms.com//images/teknolust/teknolust_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/teknolust">Teknolust</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/teknolust">Teknolust<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Anxious to use artificial life to improve the world, bio-geneticist Rosetta Stone creates a recipe for Cyborgs and uses her own DNA to breed Self Replicating Automatons</p>
+    </div>
+    <div class="f-footer">
+        <p>(2002) 82  mins /
+            <span class="stars s0"><span class="alt">0 Stars</span></span> / Likes (0) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="5e6cdb20-e92c-11e0-846c-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/un_chien_andalou" data-id="b89870a0-e48b-11e0-98bf-123139220831">
+    <img src="http://ec.snagfilms.com/images/microcinema/unchienandalou/unchienandalou_120x90.jpg" alt="" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/un_chien_andalou">Un Chien Andalou</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/un_chien_andalou">Un Chien Andalou<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>UN CHIEN ANDALOU consists of sixteen minutes of bizarre and surreal images that may or may not mean anything</p>
+    </div>
+    <div class="f-footer">
+        <p>(1929) 16  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (146) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="b89870a0-e48b-11e0-98bf-123139220831" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">5</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                </ul>
+
+
+
+    <div class="pagination">
+            </div>
+    </div> <!-- end results -->
+</div></div><div id="pageFooter"><div class="recirculation-module">
+        <div class="carousel">
+
+        </div>
+    </div><div class="footer">
+    <a class="fLogo" href="/">SnagFilms</a>
+    <div class="clear-both"></div>
+    <ul class="fnav clrfix">
+        <li><a class="noPad" href="/">HOME</a></li>
+        <li><a href="/films/browse/category/">BROWSE FILMS</a></li>
+        <li><a href="/films/browse/channel/">CHANNELS</a></li>
+        <li><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></li>
+        <li class="search">
+            <form id="ffrm1" class="sBar clrfix" action="/films/search" method="get">
+                <input name="q" id="fquery" class="sBox" type="text" placeholder="Search 3,000 Films" />
+                <input class="search" type="submit" value="SEARCH" />
+                <div class="clear-both"></div>
+            </form>
+        </li>
+    </ul>
+    <div class="fsubnav clrfix">
+        <ul class="clrfix flinks">
+            <li>
+                    <a href="/films/about">About Our Site</a></li>
+            <li>
+                    <a href="/films/our-company">Our Company</a></li>
+            <li>
+                    <a href="/films/team">Team</a></li>
+            <li>
+                    <a href="https://getsatisfaction.com/snagfilms" target="_blank">Feedback</a></li>
+            <li>
+                    <a href="/films/frequently_asked_questions">FAQ</a></li>
+            <li>
+                    <a href="/films/sitemap">Sitemap</a></li>
+            <li>
+                    <a href="http://itunes.apple.com/us/app/snagfilms/id404906625?mt=8">iPad / iPhone App</a></li>
+            <li>
+                    <a href="https://market.android.com/details?id=air.com.snagfilms&feature=search_result#?t=W251bGwsMSwyLDEsImFpci5jb20uc25hZ2ZpbG1zIl0." target="_blank">Android</a></li>
+            <li>
+                    <a href="http://www.amazon.com/SnagFilms-Inc-Beta/dp/B006BGXIO2/ref=sr_1_2?ie=UTF8&qid=1323709141&sr=8-2" target="_blank">Kindle Fire</a></li>
+            <li>
+                    <a href="http://appworld.blackberry.com/webstore/content/64991?lang=en" target="_blank">Blackberry</a></li>
+            <li>
+                    <a href="http://snagfilms.tumblr.com/post/4776522589/snagfilms-top-quality-documentaries-arrive-on-boxee" target="_blank">Boxee</a></li>
+            <li>
+                    <a href="http://www.businesswire.com/news/home/20110531006294/en/SnagFilms-launches-Roku-Acclaimed-Non-Fiction-Films" target="_blank">Roku</a></li>
+            <li>
+                    <a href="http://store.sony.com/webapp/wcs/stores/servlet/ContentDisplayView?hideHeaderFooter=false&storeId=10151&catalogId=10551&langId=-1&cmsId=STATICS_BIV_showcase" target="_blank">Sony</a></li>
+            <li>
+                    <a href="/films/submissions">Submit Your Film</a></li>
+            <li>
+                    <a href="/films/blog/category/press">Press</a></li>
+            <li>
+                    <a href="/films/blog">Blog</a></li>
+            <li>
+                    <a href="/films/advertise">Advertise</a></li>
+            <li>
+                    <a href="http://indieWIRE.com" target="_blank">Indiewire</a></li>
+            <li>
+                    <a href="http://www.youtube.com/user/snagfilms" target="_blank">YouTube</a></li>
+            <li>
+                    <a href="/films/jobs">Jobs</a></li>
+            <li>
+                    <a href="/films/privacy">Privacy</a></li>
+            <li>
+                    <a href="/films/terms">Terms</a></li>
+            <li>
+                    </li>
+            </ul>
+        <ul class="clrfix fconnect">
+            <li><span>Connect With SnagFilms:</span></li>
+                <li><a target="_blank" href="http://www.facebook.com/snagfilms">Facebook</a></li>
+                <li><a target="_blank" href="http://twitter.com/#!/snagfilms">Twitter</a></li>
+                <li><a target="_blank" href="/films/rss">RSS</a></li>
+                <li class="nl">
+                    <a id="newsletter-footer" class="last newsletter" href="#">Newsletter</a>
+                    <div id="newsletter-footer-frame-wrap" class="popup hidden ">
+    <iframe class="nl-frame" id="newsletter-footer-frame" src="" scrolling="no"></iframe>
+</div> <!-- end popup --></li>
+            </ul>
+    </div> <!-- end fsubnav -->
+    <div class="cright">&copy; Copyright 2008-2013 SnagFilms Inc. All Rights Reserved</div>
+    </div> <!-- end footer -->
+
+<script type="text/javascript">
+  SNAG.loadOnReady.add(function() {
+    var js_file = "http://cdn.snagfilms.com/resource/assets/scripts/jquery.autocomplete.c95ce2984cbf94aba9816e5891ca913d.js"; 
+    $.getScript(js_file, function(){
+      var options, a;
+      options = { serviceUrl:'/apis/titlesearch.json',
+	  			  minChars:3,
+	  			  deferRequestBy: 100, //miliseconds
+	  			  width:375,
+	  			  onSelect: function(value, data){window.location.href = data;}
+	  			  };
+      a = $('#query').autocomplete(options);
+      a = $('#fquery').autocomplete(options);
+      a.enable();
+    });
+	}, 'low');
+</script>
+
+<div id="getsat-widget-4505"></div>
+
+<script>
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://" : "http://") + "loader.engage.gsfn.us/loader.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  SNAG.loadOnReady.add(function() {if (typeof GSFN !== "undefined"){ GSFN.loadWidget(4505,{"containerId":"getsat-widget-4505"});}}, 'low');
+</script>
+
+<script type="text/javascript">_ga.trackFacebook();</script>
+</div></div><div id="queue-login" class="alt">Please login. <button class="btn-fb">Login</button></div>
+        <!-- Quantcast -->    
+        <script type="text/javascript">
+          var _qevents = _qevents || [];
+          _qevents.push( { qacct:"p-c1zCil38GHR-I"} );
+        </script>
+        <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1" alt="Quantcast"/></div>
+        </noscript>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery.tools.min.be31d9c385a70e9332e1d2c4f433d4de.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/swfobject.min.f24810ced6e0d3f40695dba6b8e59d96.js"></script>
+
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery-ui-1.8.22.custom.min.9b9d4784ea7921f3f7712a9ca9600c69.js"></script>
+<script type="text/javascript">   
+      SNAG.loadOnReady.add(function(){ 
+        
+        
+        window.fbAsyncInit = function() {
+          FB.init({
+              appId: '227991737252697',
+              status : true,
+              cookie : true,
+              oauth: true,
+              email: true,
+              xfbml  : true
+          });
+        
+          for (var i=0;i<SNAG.onFBInit.length;i++) {
+            if (typeof SNAG.onFBInit[i] === 'function') {
+              SNAG.onFBInit[i](FB);
+            }
+          }            
+
+        } //window.fbAsyncInit
+        
+        
+        $('.login a').on('click', function(event) { 
+          event.preventDefault();
+          
+          
+          document.cookie = 'fbsr_227991737252697 = ""; expired=0; path=/; domain=.snagfilms.com';
+          
+          FB.logout(function() {
+		    				      
+				location.reload();
+			  		
+          });
+        });
+
+		 
+		  
+        (function(d){
+          var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+          js = d.createElement('script'); js.id = id; js.async = true;
+          js.src = "//connect.facebook.net/en_US/all.js";
+          d.getElementsByTagName('head')[0].appendChild(js);
+        }(document)); 
+      
+        
+
+        $.getScript("http://cdn.snagfilms.com/resource/assets/scripts/footer.fe07b593fd7360f3b76858b7fe5aa8e8.js", function(){});             
+      },'low');
+      
+    </script>
+    
+  <script type="text/javascript">     
+
+    $(document).ready(function() {        
+      SNAG.loadOnReady.execute('high');      
+      if(SNAG.deferLoad) {      
+        setTimeout(function(){
+          if(!SNAG.loadFinished) {
+            SNAG.runWhenReady();
+          }
+        }, 10000);  
+      }
+      else {
+        SNAG.runWhenReady();
+      }           
+          
+    });
+  </script>      
+
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+            Sailthru.setup({
+                domain: 'horizon.snagfilms.com'
+            });
+        };
+    })();
+</script>
+      
+  </body>
+</html>

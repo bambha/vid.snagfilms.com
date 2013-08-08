@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Welcome to Snagfilms</title>
+  <meta name="Description" content="Watch free movies and documentaries at SnagFilms.">
+  <meta name="Keywords" content="Welcome to Snagfilms, documentary, documentaries, watch, free, online, best, snag films, SnagFilms, Snag Films, SnagFilm, Snag Film, IndieWire, Indie Wire, Indie Film, Independent Film, ">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1187.39">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
+  </style>
+</head>
+<body>
+<p class="p1">User-agent: *</p>
+<p class="p1">Disallow: /</p>
+</body>
+</html>

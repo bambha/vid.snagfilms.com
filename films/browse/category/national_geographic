@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<!-- Build: 1.0.0.2100 | psd.hostname: N/A | hostname: ip-10-28-226-207.ec2.internal  -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video#">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <title>National Geographic Documentaries and Videos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="title" content="National Geographic Documentaries and Videos" />
+		<meta name="description" content="Watch National Geographic documentaries and videos. Nat Geo videos on environment, history, culture, and more. .  Watch free movies and documentaries at SnagFilms." />
+		<meta name="keywords" content="National Geographic Documentaries and Videos, documentary, documentaries, watch, free, online, best, snag films, SnagFilms, Snag Films, SnagFilm, Snag Film, IndieWire, Indie Wire, Indie Film, Independent Film, " />
+		<link rel="icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="shortcut icon" type="image/png" href="http://ec.snagfilms.com/i/fav.png" />
+		<link rel="canonical" href="http://www.snagfilms.com/films/browse/category/national_geographic" />
+		<meta name="msvalidate.01" content="F36E644468CC58F1E161CA94493941B0" />
+<link rel="image_src" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<link rel="media:image" href="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta name="medium" content="article" />
+		<meta property="og:image" content="http://a0.twimg.com/profile_images/2406909506/vqmgxq54dhhpbjnjf9vb.jpeg" />
+		<meta property="og:description" content="Watch National Geographic documentaries and videos. Nat Geo videos on environment, history, culture, and more. .  Watch free movies and documentaries at SnagFilms." />
+		<meta property="og:url" content="http://www.snagfilms.com/films/browse/category/national_geographic" />
+		<meta property="og:site_name" content="SnagFilms" />
+		<meta property="fb:app_id" content="227991737252697" />
+		<meta property="fb:admins" content="100001749790181" /><link rel="stylesheet" type="text/css" href="http://cdn.snagfilms.com/resource/assets/css/global.0077af24ce0cc875a337fab8e207f685.css" />
+<!--[if gte IE 9]> <style type="text/css">.gradient {filter: none;} </style><![endif]-->
+
+</head>
+<body>
+<div id="fb-root"></div>
+  <script type="text/javascript">    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-1']);
+    _gaq.push(['_setDomainName', '.snagfilms.com']);
+    _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+
+
+<!-- -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try{
+        window.pageTracker = _gat._getTracker("UA-3922545-1");
+        //pageTracker._trackPageview();
+    } catch(err) {
+        console.log("Error creating the tracker");
+    }
+</script>
+<!-- Google Analytics Social Button Tracking -->
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/ga_social_tracking.42bfd3cd629c0eba81ccd3c613523d2b.js"></script>
+<!-- Load Twitter JS-API asynchronously -->
+<script>
+    (function(){
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+        // Setup a callback to track once the script loads.
+        twitterWidgets.onload = _ga.trackTwitter;
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+
+<script type="text/javascript">
+  isFilmPage = false;
+  var SNAG = {};
+  SNAG.loggedIn = false;
+  SNAG.onFBInit = [];
+  SNAG.deferLoad = false;
+  SNAG.loadFinished = false;    
+  SNAG.loadOnReady = (function() {   
+    var lq = {high: [],med: [],low: []};     
+    return {    
+      add: function(action, priority) {if (lq.hasOwnProperty(priority)) {lq[priority].push(action);}},
+      execute: function(priority) {if(lq[priority]) {for (var i=0; i< lq[priority].length; i++){try {lq[priority][i]();} catch(err){}}}}      
+    };
+  })();  
+  SNAG.runWhenReady = function () {
+    if(!SNAG.loadFinished) {
+      var main_js = "http://cdn.snagfilms.com/resource/assets/scripts/main.dd4a8da6051904cde583489063038ae3.js"; 
+      $.getScript(main_js, function(){
+        SNAG.loadOnReady.execute('med');
+        SNAG.loadOnReady.execute('low');               
+      });
+      
+      SNAG.onFBInit.push(function(fb_object) {            
+        fb_object.Event.subscribe('auth.authResponseChange', Snag.fb.authResponseChange);
+        fb_object.Event.subscribe('edge.create', Snag.fb.like);
+        fb_object.Event.subscribe('comment.create', Snag.fb.commentCreate);
+        fb_object.Event.subscribe('comment.remove', Snag.fb.commentRemove);
+      });
+           
+      SNAG.loadFinished = true;      
+     // console.log('SNAG.runWhenReady');
+    }  
+  };
+  
+  
+        
+        _gaq.push(['_setCustomVar',
+            1, 
+            'Visitor Type', 
+            'Unauthenticated', 
+            1 
+        ]);        
+  
+</script>
+<div id="pageWrapper" class="grid2"><div id="pageHeader">
+    <div class="top clrfix">
+        <a class="logo" href="/">SnagFilms</a>
+        <div class="headerAd">
+            <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215570/0/225/ADTECH;loc=100;target=_blank;key=national_geographic;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+        <div class="clear-both"></div>
+    </div> <!-- end top -->
+    <div class="loginBar">
+        <div class="main-login clrfix">
+            <ul class="clear">
+                <li class="facebook last">
+            <button class="btn-fb">Login or Sign Up</button>
+        </li>
+    </ul>
+        </div><!-- end main login -->
+        </div> <!-- end login Bar -->    
+    <div class="navBar">
+        <ul class="nav clrfix">
+            <li class="home">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/">HOME</a></div>
+            </li>
+            <li class="tab-browse">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/">BROWSE FILMS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="/films/browse/?sort=likes">Most Liked</a></li>
+                        <li><a href="/films/browse/?sort=newest">New Arrivals</a></li>
+                        <li><a href="/films/browse/topics">All Topics</a></li>
+                        <li><a href="/films/browse/?sort=alpha">A-Z</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Categories</h3></li>
+                        <li><a title="Action & Adventure Movies" href="/films/browse/category/adventure_adventure/">Action &amp; Adventure</a></li>
+                        <li><a title="Art & Music Movies" href="/films/browse/category/art_music/">Art &amp; Music</a></li>
+                        <li><a title="Award-Winning Movies" href="/films/browse/category/award_winning/**">Award-Winning</a></li>
+                        <li><a title="Celebrities & Fame  Movies" href="/films/browse/category/celebrities_fame/">Celebrities &amp; Fame </a></li>
+                        <li><a title="Comedy Movies" href="/films/browse/category/comedy/">Comedy</a></li>
+                        <li><a title="Drama Movies" href="/films/browse/category/drama">Drama</a></li>
+                        <li><a title="Biography Movies" href="/films/browse/category/real_people_true_stories/**">Biography</a></li>
+                        <li><a title="Kids & Family Movies" href="/films/browse/category/family_friendly/**">Kids &amp; Family</a></li>
+                        <li><a title="Festivals Movies" href="/films/browse/category/festival">Festivals</a></li>
+                        <li><a title="Health & Food Movies" href="/films/browse/category/health_food/">Health &amp; Food</a></li>
+                        <li><a title="History Movies" href="/films/browse/category/history">History</a></li>
+                        <li><a title="Arts & Culture Movies" href="/films/browse/category/pop_culture/**">Arts &amp; Culture</a></li>
+                        <li><a title="Romance Movies" href="/films/browse/category/romance/">Romance</a></li>
+                        <li><a title="Science & Nature Movies" href="/films/browse/category/science_nature">Science &amp; Nature</a></li>
+                        <li><a title="Short Films" href="/films/browse/category/short_films/">Short Films</a></li>
+                        <li><a title="Politics & Social Issues Movies" href="/films/browse/category/social_issues_politics">Politics &amp; Social Issues</a></li>
+                        <li><a title="Thriller & Suspense Movies" href="/films/browse/category/thriller_and_suspense">Thriller &amp; Suspense</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/category/">All Categories <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="channels selected">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/channel/">CHANNELS</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>POPULAR CHANNELS</h3></li>
+                        <li><a title="Celeb Interviews | Shootout Movies" href="/films/browse/category/shootout">Celeb Interviews | Shootout</a></li>
+                        <li><a title="Content Film Movies" href="/films/browse/category/content_film">Content Film</a></li>
+                        <li><a title="Alternative | Disinformation Movies" href="/films/browse/category/disinformation">Alternative | Disinformation</a></li>
+                        <li><a title="Exploration | XPLR Movies" href="/films/browse/category/xplr">Exploration | XPLR</a></li>
+                        <li><a title="Kino Lorber Movies" href="/films/browse/category/kino_lorber">Kino Lorber</a></li>
+                        <li><a title="Lionsgate Movies" href="/films/browse/category/lionsgate">Lionsgate</a></li>
+                        <li><a title="Music Videos | MVD  Movies" href="/films/browse/category/mvd">Music Videos | MVD </a></li>
+                        <li><a title="National Geographic Movies" href="/films/browse/category/national_geographic">National Geographic</a></li>
+                        <li><a title="New Video Movies" href="/films/browse/category/new_video">New Video</a></li>
+                        <li><a title="Shorts | Media that Matters Movies" href="/films/browse/category/media_that_matters">Shorts | Media that Matters</a></li>
+                        <li><a title="Travel | Content Republic Movies" href="/films/browse/category/content_republic">Travel | Content Republic</a></li>
+                        <li><a title="Wildlife | Jeff Corwin Movies" href="/films/browse/category/feeling_the_heat_with_jeff_corwin">Wildlife | Jeff Corwin</a></li>
+                        <li><a title="Sundance Movies" href="/sundance">Sundance</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/channel/">All Channels <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="filmanthropy">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></div>
+                <div class="dropdown">
+                    <ul>
+                        <li><h3>MOVIES THAT MATTER</h3></li>
+                        <li><a href="/films/browse/filmanthropy/build-community">Build Community</a></li>
+                        <li><a href="/films/browse/filmanthropy/celebrate-diversity">Celebrate Diversity</a></li>
+                        <li><a href="/films/browse/filmanthropy/champion-human-rights">Champion Human Rights</a></li>
+                        <li><a href="/films/browse/filmanthropy/connect-to-a-higher-power">Connect to a Higher Power</a></li>
+                        <li><a href="/films/browse/filmanthropy/empower-women">Empower Women</a></li>
+                        <li><a href="/films/browse/filmanthropy/encourage-healthy-living">Encourage Healthy Living</a></li>
+                        <li><a href="/films/browse/filmanthropy/examine-globalization">Examine Globalization</a></li>
+                        <li><a href="/films/browse/filmanthropy/exercise-democracy">Exercise Democracy</a></li>
+                        <li><a href="/films/browse/filmanthropy/explore-arts-and-culture">Explore Arts and Culture</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-disease">Fight Disease</a></li>
+                        <li><a href="/films/browse/filmanthropy/fight-poverty">Fight Poverty</a></li>
+                        <li><a href="/films/browse/filmanthropy/investigate-the-natural-world">Investigate the Natural World</a></li>
+                        <li><a href="/films/browse/filmanthropy/learn-from-history">Learn from History</a></li>
+                        <li><a href="/films/browse/filmanthropy/promote-peace">Promote Peace</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-our-children">Protect Our Children</a></li>
+                        <li><a href="/films/browse/filmanthropy/protect-the-environment">Protect the Environment</a></li>
+                        <li><a href="/films/browse/filmanthropy/pursue-your-passion">Pursue Your Passion</a></li>
+                        </ul>
+                    <a class="viewall" href="/films/browse/filmanthropy/">All Causes <span class="arrow">&raquo;</span></a>
+                </div> <!-- end dropdown -->
+            </li>
+            <li class="nav-queue">
+                <span class="nav-corner"></span>
+                <div class="tab"><a href="#">MY QUEUE </a></div>
+                <div class="dropdown">
+                    <div class="queue-login">
+                                        <b>Please login or register to save films to your queue and more.</b>
+                                        <button class="btn-fb">Login with Facebook</button>
+                                    </div>
+                                </div> <!-- end dropdown -->
+</li>
+            <li class="search">
+                <form id="frm1" class="sBar clear" action="/films/search" method="get">
+                    <input name="q" class="placeholder sBox" id="query" type="text" placeholder="Search 3,000 Films" />
+                        <input class="search" type="submit" value="SEARCH" />
+                </form>
+                <div class="clear-both"></div>
+            </li>
+        </ul>
+    </div> <!-- end nav bar -->
+    </div> <!-- end page header -->
+
+<div id="contentWrapper" class="browse search clrfix"><script>
+if (location.hash != "") {
+	var c = Snag.Utils.cookie.get(Snag.browse.cookieName);
+	if (c) {
+	    location.href = c;
+	}
+}
+
+</script><ul class="breadcrumb clrfix">
+    <li><a href="/">Home</a>&nbsp;&nbsp;></li>
+    <li><a href="/films/browse/">Browse Films</a>&nbsp;&nbsp;></li>
+            <li>National Geographic</li>
+        </ul><div id="col1"><div class="filter-by">
+    <h3>Narrow Results
+    <span class="topCorner"></span>
+    <span class="topCorner bottomCorner"></span></h3>
+
+    <form id="frm-filter" method="get">
+        <div class="section">
+            <label for="select-rating">Rating</label>
+            <select class="ui-select" id="filter-rating" name="rating">
+                <option value="">All</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Stars</option>
+            </select>
+        </div>
+        <div class="section run-time">
+            <label for="run-time">Run Time</label>
+            <input type="input" name="min-time" size="3" data-value="0" value="" /> to <input type="input" name="max-time" size="3" data-value="180" value=""/> minutes
+        </div>
+
+        <div class="section">
+            <label for="select-type">Documentary / Fiction</label>
+            <select class="ui-select" id="filter-type" name="type">
+                <option value="">All</option>
+                <option value="Documentary">Documentary</option>
+                <option value="Fiction">Fiction</option>
+            </select>
+        </div>
+        <div class="section show-worldwide">
+            <input type="checkbox" id="filter-worldwide" name="ww" value="true" />
+            <label for="filter-worldwide">Available worldwide</label>
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+        <input type="hidden" name="view" value="" />
+        <input type="hidden" name="sort" value="" />
+        <input type="hidden" name="ltr" value="" />
+        <input type="hidden" name="q" value="" />
+    </form>
+</div>
+
+<span class="topCorner"></span></div><div id="col2" class="current-results"><h1><span class="number">74</span> National Geographic Films <fb:like href="http://www.snagfilms.com/films/browse/category/national_geographic" send="false" layout="button_count" show_faces="false"></fb:like></h1>
+    <div class="main-promo clear">
+        <div class="logo">
+            <a href="http://www.nationalgeographic.com/" target="_blank"><img src="http://ec.snagfilms.com/images/natgeo/natgeo_small.jpg" alt="National Geographic" /></a></div><div class="description">
+            <!-- headline with optional link -->
+            <h2>Explore Your World</h2>
+            <p><br />
+
+	National Geographic is one of the largest non-profit scientific and educational institutes in the world, bringing to the public eye exciting new discoveries direct from the field. Their documentaries span a variety of interests, from environmental and historical conservation to the study of world culture and history with the purpose of inspiring people to care about the planet. Be sure to check out the <a href="http://www.snagfilms.com/films/title/secret_life_of_cats/"><strong>Secret Life of Cats</strong></a> and <a href="http://www.snagfilms.com/films/title/violent_earth/"><strong>Violent Earth</strong></a>!</p>
+        </div></div>
+<a name="top"></a>
+
+<div class="sort-view">
+        <div class="sort">
+            <form id="frm-sorting">
+                <label for="slt-sort">Sort By:</label>
+                <select class="ui-select" id="slt-sort">
+                    <option data-value="newest" value="/films/browse/category/national_geographic?sort=newest">Newest</option>
+                    <option data-value="likes" value="/films/browse/category/national_geographic?sort=likes">Most Liked</option>
+                    <option data-value="ratings" value="/films/browse/category/national_geographic?sort=ratings">Highest Rated</option>
+                    <option data-value="comments" value="/films/browse/category/national_geographic?sort=comments">Most Commented</option>
+                    <option data-value="alpha" value="/films/browse/category/national_geographic?sort=alpha">A-Z</option>
+                </select>
+            </form>
+        </div>
+        <div class="view">
+            <span>Grid View</span> | <a href="/films/browse/category/national_geographic?view=list" data-type="list" onclick="Snag.Utils.Pagi.pagesLoaded = 1;">List View</a>
+                </div>
+        <div class="rss">
+            <a href="http://feeds.feedburner.com/snagfilms/nationalgeographic" target="_blank">RSS</a>
+        </div>
+
+        <div class="email">
+                <a href="http://feedburner.google.com/fb/a/mailverify?uri=snagfilms/nationalgeographic" target="_blank" title="Get Email Updates on New National Geographic Films.">Email Updates</a>
+            </div>
+        </div>  <!-- end sort-view -->
+<div class="results grid-view">
+    <div class="ad-wrapper">
+        <script type="text/javascript">
+                document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5182/2215571/0/170/ADTECH;loc=100;target=_blank;key=national_geographic;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+        </div>
+<ul class="clear films-list">
+    <li>
+	                        <a class="snag-thumb-link" href="/films/title/jewels_of_the_caribbean_sea" data-id="ea714a30-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/jewelsofthecaribbean/jewelsofthecaribbean_120x90.jpg" alt="Jewels of the Caribbean Sea" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/jewels_of_the_caribbean_sea">Jewels of the Caribbean Sea</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/jewels_of_the_caribbean_sea">Jewels of the Caribbean Sea<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Tour the depths of the Caribbean Sea. In waters famed for hidden treasures, another kind of wealth lies in abundance. </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 55  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (38) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ea714a30-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">5</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/beyond_the_movie_pearl_harbor" data-id="a66c0f00-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/beyondthemoviepearlharbor/beyondthemoviepearlharbor_120x90.jpg" alt="Beyond the Movie: Pearl Harbor" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/beyond_the_movie_pearl_harbor">Beyond the Movie: Pearl Harbor</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/beyond_the_movie_pearl_harbor">Beyond the Movie: Pearl Harbor<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore the real stories, real heroes, real action that inspired the movie</p>
+    </div>
+    <div class="f-footer">
+        <p>(2001) 52  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (16) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a66c0f00-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/secret_life_of_cats" data-id="eef599d0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/secretlifeofcats/secretlifeofcats_120x90.jpg" alt="Secret Life of Cats" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/secret_life_of_cats">Secret Life of Cats</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/secret_life_of_cats">Secret Life of Cats<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>What is your cat doing when it slips out of the house? You&#039;ll learn more about your pet than you might want to know!            </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (2029) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="eef599d0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">74</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/young_explorers_secrets_of_the_wild_panda" data-id="ed309140-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/secretsofthewildpanda/secretsofthewildpanda_120x90.jpg" alt="Young Explorers: Secrets of the Wild Panda" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/young_explorers_secrets_of_the_wild_panda">Young Explorers: Secrets of...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/young_explorers_secrets_of_the_wild_panda">Young Explorers: Secrets of the Wild Panda<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Hear the outsized yelp of a four-ounce panda cub, and spy on hungry pandas who eat as much as 80 pounds of food a day.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (48) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ed309140-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lions_of_darkness" data-id="ec3652c0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/lionsofdarkness/lionsofdarkness_120x90.jpg" alt="Lions of Darkness" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lions_of_darkness">Lions of Darkness</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lions_of_darkness">Lions of Darkness<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Rarely before has the drama of life on the wild plains of Africa been portrayed more intimately than in this remarkable film.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 70  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (153) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ec3652c0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">13</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/hindenburgs_fiery_secrets" data-id="e9808190-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/hindenburgs/hindenburgs_120x90.jpg" alt="Hindenburg's Fiery Secrets" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/hindenburgs_fiery_secrets">Hindenburg&#039;s Fiery Secrets</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/hindenburgs_fiery_secrets">Hindenburg&#039;s Fiery Secrets<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Witness rare historic footage as you hear incredible first-hand accounts from survivors of the legendary German airship. </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 58  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (55) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e9808190-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/egypt_quest_for_eternity" data-id="e8a515b0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/egyptquest/egyptquest_120x90.jpg" alt="Egypt: Quest for Eternity" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/egypt_quest_for_eternity">Egypt: Quest for Eternity</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/egypt_quest_for_eternity">Egypt: Quest for Eternity<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Join Egyptologists as they unravel and interpret the riddles of Egypt&#039;s intriguing past.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (25) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e8a515b0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/shark_encounters" data-id="ee1a7c10-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/sharkencounters/sharkencounters_120x90.jpg" alt="Shark Encounters" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/shark_encounters">Shark Encounters</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/shark_encounters">Shark Encounters<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Plunge into the ocean with renowned filmmaker and shark expert Michael deGruy as he takes you to the underwater realm of sharks.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 50  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (44) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ee1a7c10-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/last_voyage_of_the_lusitania" data-id="eb6212d0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/lastvoyage/lastvoyage_120x90.jpg" alt="Last Voyage of the Lusitania" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/last_voyage_of_the_lusitania">Last Voyage of the Lusitania</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/last_voyage_of_the_lusitania">Last Voyage of the Lusitania<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Why did Germany torpedo the Lusitania, a civilian vessel? And why did such an enormous ship sink so fast?</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (35) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="eb6212d0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/jerusalem_within_these_walls" data-id="e4f6dac0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/jerusalemwithin/jerusalemwithin_120x90.jpg" alt="Jerusalem: Within These Walls" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/jerusalem_within_these_walls">Jerusalem: Within These Walls</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/jerusalem_within_these_walls">Jerusalem: Within These Walls<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Jerusalem&#039;s Old City is a tiny enclave where some of history&#039;s greatest dramas have been enacted.                               </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (65) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e4f6dac0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">9</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/in_search_of_the_jaguar" data-id="e41b47d0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/insearchofthejaguar/insearchofthejaguar_120x90.jpg" alt="In Search of the Jaguar" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/in_search_of_the_jaguar">In Search of the Jaguar</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/in_search_of_the_jaguar">In Search of the Jaguar<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Venture deep into the wilds of Brazil, Belize, and Panama with biologist Alan Rabinowitz as he pursues these elusive predators.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (63) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e41b47d0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/supercroc" data-id="e34421b0-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/supercroc/supercroc_120x90.jpg" alt="SuperCroc" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/supercroc">SuperCroc</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/supercroc">SuperCroc<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Dr. Paul Sereno uncovers the skull of a ten-ton giant SuperCroc, the size of a school bus and one of the largest ever found. </p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 90  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (72) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e34421b0-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/the_search_for_kennedys_pt_109" data-id="e28a4790-a745-11e0-a92a-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/searchforkennedys/searchforkennedys_120x90.jpg" alt="The Search for Kennedy's PT 109" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/the_search_for_kennedys_pt_109">The Search for Kennedy&#039;s PT...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/the_search_for_kennedys_pt_109">The Search for Kennedy&#039;s PT 109<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>National Geographic reveals the true story behind the legend of young Navy Lieutenant John Fitzgerald Kennedy.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 55  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (22) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="e28a4790-a745-11e0-a92a-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/inside_the_vatican" data-id="57e6a100-a741-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/insidethevatican/insidethevatican_120x90.jpg" alt="Inside the Vatican" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/inside_the_vatican">Inside the Vatican</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/inside_the_vatican">Inside the Vatican<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A rare glimpse inside the secret archives and private chapels of the Vatican.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2001) 86  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (70) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="57e6a100-a741-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">4</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lost_ships_of_the_mediterranean" data-id="a9c35050-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/lostshipsofthemediterranean/lostshipsofthemediterranean_120x90.jpg" alt="Lost Ships of the Mediterranean" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lost_ships_of_the_mediterranean">Lost Ships of the Mediterra...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lost_ships_of_the_mediterranean">Lost Ships of the Mediterranean<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Join famed underwater explorer Dr. Robert Ballard on his quest to solve an archaeological mystery</p>
+    </div>
+    <div class="f-footer">
+        <p>(2000) 52  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (6) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="a9c35050-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/human_footprint" data-id="1e571050-a741-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/humanfootprint/humanfootprint_120x90.jpg" alt="Human Footprint" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/human_footprint">Human Footprint</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/human_footprint">Human Footprint<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>What makes up an average human life today and how everything we do has impact on the world around us</p>
+    </div>
+    <div class="f-footer">
+        <p>(2008) 92  mins /
+            <span class="stars s3"><span class="alt">3 Stars</span></span> / Likes (262) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="1e571050-a741-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">4</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/beyond_the_movie_lord_of_the_rings_return_of_the_king" data-id="ffd6af00-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/returnoftheking/returnoftheking_120x90.jpg" alt="Beyond the Movie: Lord of the Rings: Return of the King" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/beyond_the_movie_lord_of_the_rings_return_of_the_king">Beyond the Movie: Lord of t...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/beyond_the_movie_lord_of_the_rings_return_of_the_king">Beyond the Movie: Lord of the Rings: Return of the King<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Discover the real world parallels to the events and characters brought to life in the epic movie</p>
+    </div>
+    <div class="f-footer">
+        <p>(2003) 57  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (51) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ffd6af00-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/nightmare_in_jamestown" data-id="ff0c5a20-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/jamestown/jamestown_120x90b.jpg" alt="Nightmare in Jamestown" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/nightmare_in_jamestown">Nightmare in Jamestown</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/nightmare_in_jamestown">Nightmare in Jamestown<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore the dramatic true story behind the settlement of Jamestown</p>
+    </div>
+    <div class="f-footer">
+        <p>(2005) 47  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (65) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ff0c5a20-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">4</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/is_it_real_da_vincis_code" data-id="fe75bf70-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/davinci/davinci_120x90.jpg" alt="Is it Real? Da Vinci's Code" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/is_it_real_da_vincis_code">Is it Real? Da Vinci&#039;s Code</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/is_it_real_da_vincis_code">Is it Real? Da Vinci&#039;s Code<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore the fascinating and controversial themes behind &#039;The DaVinci Code&#039; and sort fact from fiction</p>
+    </div>
+    <div class="f-footer">
+        <p>(2006) 47  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (5) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fe75bf70-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/tiger_shark_predator_revealed" data-id="fbce4620-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/tigershark/tigershark_120x90.jpg" alt="Tiger Shark: Predator Revealed" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/tiger_shark_predator_revealed">Tiger Shark: Predator Revealed</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/tiger_shark_predator_revealed">Tiger Shark: Predator Revealed<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>A spectacular shark&#039;s eye view of the fearsome yet fascinating predator</p>
+    </div>
+    <div class="f-footer">
+        <p>(2000) 58  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (2) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fbce4620-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/land_of_the_tiger" data-id="fb5126e0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/landofthetiger/landofthetiger_120x90.jpg" alt="Land of the Tiger" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/land_of_the_tiger">Land of the Tiger</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/land_of_the_tiger">Land of the Tiger<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore the strange and mysterious world of the tiger</p>
+    </div>
+    <div class="f-footer">
+        <p>(1986) 59  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (12) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fb5126e0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/dolphins_the_wild_side" data-id="fad31d40-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/dolphinsthewildside/dolphinsthewildside_120x90.jpg" alt="Dolphins: The Wild Side" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/dolphins_the_wild_side">Dolphins: The Wild Side</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/dolphins_the_wild_side">Dolphins: The Wild Side<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>The aggressive side of dolphins</p>
+    </div>
+    <div class="f-footer">
+        <p>(1999) 57  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (110) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fad31d40-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">9</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/those_wonderful_dogs" data-id="fa3f8fd0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/thosewonderfuldogs/thosewonderfuldogs_120x90.jpg" alt="Those Wonderful Dogs" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/those_wonderful_dogs">Those Wonderful Dogs</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/those_wonderful_dogs">Those Wonderful Dogs<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Discover all the ways &#034;man&#039;s best friend&#034; helps humankind</p>
+    </div>
+    <div class="f-footer">
+        <p>(1991) 57  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (23) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="fa3f8fd0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/battle_for_midway" data-id="f8f6e330-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/battleformidway/battleformidway_120x90.jpg" alt="Battle for Midway" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/battle_for_midway">Battle for Midway</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/battle_for_midway">Battle for Midway<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore the history of the pivotal battle that changed the course of WWII</p>
+    </div>
+    <div class="f-footer">
+        <p>(1999) 81  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (110) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f8f6e330-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">8</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/splendid_stones" data-id="f7e43ab0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/splendidstones/splendidstones_120x90.jpg" alt="Splendid Stones" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/splendid_stones">Splendid Stones</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/splendid_stones">Splendid Stones<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An exploration of  the mystery and mystique surrounding precious gems -- diamonds, pearls, emeralds and rubies</p>
+    </div>
+    <div class="f-footer">
+        <p>(1993) 56  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (3) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f7e43ab0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/search_for_the_battleship_bismarck" data-id="f73dc180-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/battleshipbismarck/battleshipbismarck_120x90.jpg" alt="Search for the Battleship Bismarck" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/search_for_the_battleship_bismarck">Search for the Battleship B...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/search_for_the_battleship_bismarck">Search for the Battleship Bismarck<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Join Dr. Robert Ballard as he discovers the ill-fated warship Bismarck deep under the Atlantic Ocean</p>
+    </div>
+    <div class="f-footer">
+        <p>(1989) 52  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (12) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f73dc180-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lost_kingdom_of_the_maya" data-id="f66aba10-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/lostkingdomofthemaya/lostkingdomofthemaya_120x90.jpg" alt="Lost Kingdom of the Maya" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lost_kingdom_of_the_maya">Lost Kingdom of the Maya</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lost_kingdom_of_the_maya">Lost Kingdom of the Maya<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An exploration of the mysteries of the &#034;once great&#034; Mayan Empire</p>
+    </div>
+    <div class="f-footer">
+        <p>(1993) 57  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (15) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f66aba10-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/lions_of_the_african_night" data-id="f5d9c4b0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/lionsoftheafricannight/lionsoftheafricannight_120x90.jpg" alt="Lions of the African Night" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/lions_of_the_african_night">Lions of the African Night</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/lions_of_the_african_night">Lions of the African Night<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Learn the savage secrets of Africa after dark as animals struggle to fight off constant hunger</p>
+    </div>
+    <div class="f-footer">
+        <p>(1988) 59  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (19) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f5d9c4b0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">3</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/inside_shock_and_awe" data-id="f490c9f0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/insideshockandawe/insideshockandawe_120x90.jpg" alt="Inside Shock and Awe" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/inside_shock_and_awe">Inside Shock and Awe</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/inside_shock_and_awe">Inside Shock and Awe<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>An inside look at the Shock and Awe campaign that launched Operation Iraqi Freedom.</p>
+    </div>
+    <div class="f-footer">
+        <p>(2005) 47  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (8) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f490c9f0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/dawn_of_the_maya" data-id="f3ad20b0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/dawnofthemaya/dawnofthemaya_120x90.jpg" alt="Dawn of the Maya" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/dawn_of_the_maya">Dawn of the Maya</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/dawn_of_the_maya">Dawn of the Maya<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Investigate the rise and fall of one of the world&#039;s most mysterious civilizations</p>
+    </div>
+    <div class="f-footer">
+        <p>(2004) 52  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (31) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f3ad20b0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/civil_war_gold" data-id="f2e53cd0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/civilwargold/civilwargold_120x90.jpg" alt="Civil War Gold" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/civil_war_gold">Civil War Gold</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/civil_war_gold">Civil War Gold<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>The captivating story of the discovery of the S.S. Republic and the fortune it carried</p>
+    </div>
+    <div class="f-footer">
+        <p>(2004) 60  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (7) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f2e53cd0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">1</span>  Comment</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/across_the_atlantic_behind_the_lindbergh_legend" data-id="f21123f0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/acrosstheatlantic/acrosstheatlantic_120x90.jpg" alt="Across the Atlantic: Behind the Lindbergh Legend" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/across_the_atlantic_behind_the_lindbergh_legend">Across the Atlantic: Behind...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/across_the_atlantic_behind_the_lindbergh_legend">Across the Atlantic: Behind the Lindbergh Legend<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Relive the story behind Charles Lindbergh&#039;s epic and daring New York Paris flight in 1927</p>
+    </div>
+    <div class="f-footer">
+        <p>(2000) 54  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f21123f0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/ambassador_inside_the_embassy" data-id="f13fca30-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/ambassador/ambassador_120x90.jpg" alt="Ambassador: Inside the Embassy" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/ambassador_inside_the_embassy">Ambassador: Inside the Embassy</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/ambassador_inside_the_embassy">Ambassador: Inside the Embassy<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Travel behind the scenes for unprecedented access to American diplomats at work overseas</p>
+    </div>
+    <div class="f-footer">
+        <p>(2002) 61  mins /
+            <span class="stars s5"><span class="alt">5 Stars</span></span> / Likes (1) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f13fca30-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/amazon_land_of_the_flooded_forest" data-id="f052f930-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/landofthefloodedforest/landofthefloodedforest_120x90.jpg" alt="Amazon: Land of the Flooded Forest" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/amazon_land_of_the_flooded_forest">Amazon: Land of the Flooded...</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/amazon_land_of_the_flooded_forest">Amazon: Land of the Flooded Forest<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Explore an extraordinary region where water and land life intermingle six months out of the year</p>
+    </div>
+    <div class="f-footer">
+        <p>(1990) 57  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (20) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="f052f930-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/africa_wilds_of_madagascar" data-id="ef77db70-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/madagascar/madagascar_120x90.jpg" alt="Africa: Wilds of Madagascar" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/africa_wilds_of_madagascar">Africa: Wilds of Madagascar</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/africa_wilds_of_madagascar">Africa: Wilds of Madagascar<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Travel to the island of Madagascar to study the exotic animals of this forbidding wildlife oasis.</p>
+    </div>
+    <div class="f-footer">
+        <p>(1989) 51  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (18) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="ef77db70-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">0</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                <li>
+	                        <a class="snag-thumb-link" href="/films/title/last_stand_of_the_great_bear" data-id="eabdaec0-a740-11e0-89c3-0026bb61d036">
+    <img src="http://ec.snagfilms.com/images/laststandofthegreatbear/laststandofthegreatbear_120x90.jpg" alt="Last Stand of the Great Bear" /><div class="snag-thumb-play-button"></div>
+</a>
+<a class="title" href="/films/title/last_stand_of_the_great_bear">Last Stand of the Great Bear</a>
+<div class="film-hvr-bx film-summary">
+    <div class="f-header">
+        <h3 class="title"><a href="/films/title/last_stand_of_the_great_bear">Last Stand of the Great Bear<span class="play-btn"><span class="alt">Play</span></span></a></h3>
+    </div>
+    <div class="summary">
+        <p>Journey to the untamed Great Bear Rain Forest where the wildlife is like nothing you have ever seen</p>
+    </div>
+    <div class="f-footer">
+        <p>(2005) 56  mins /
+            <span class="stars s4"><span class="alt">4 Stars</span></span> / Likes (20) </p>
+        <p>
+            <span class="queue"><a href="#" data-id="eabdaec0-a740-11e0-89c3-0026bb61d036" data-action="add">Add to Queue</a></span>
+                
+            / <span class="comments"><span class="num">2</span>  Comments</span>
+        </p>
+    </div>
+</div>
+
+</li>
+	                </ul>
+
+
+
+    <div class="pagination">
+            <div class="bottom-title-count">
+            <span class="number">74</span> National Geographic Films</div>
+    <ul class="pagi clrfix">
+        <li class="prev disabled"><a href="#">previous</a></li>
+        <li class="number">1<span> of </span> 3</li>
+        <li class="next"><a href="/films/browse/category/national_geographic?offset=36">next</a></li>
+    </ul>
+</div>
+    </div> <!-- end results -->
+</div></div><div id="pageFooter"><div class="recirculation-module">
+        <div class="carousel">
+
+        </div>
+    </div><div class="footer">
+    <a class="fLogo" href="/">SnagFilms</a>
+    <div class="clear-both"></div>
+    <ul class="fnav clrfix">
+        <li><a class="noPad" href="/">HOME</a></li>
+        <li><a href="/films/browse/category/">BROWSE FILMS</a></li>
+        <li><a href="/films/browse/channel/">CHANNELS</a></li>
+        <li><a href="/films/browse/filmanthropy/">FILMANTHROPY</a></li>
+        <li class="search">
+            <form id="ffrm1" class="sBar clrfix" action="/films/search" method="get">
+                <input name="q" id="fquery" class="sBox" type="text" placeholder="Search 3,000 Films" />
+                <input class="search" type="submit" value="SEARCH" />
+                <div class="clear-both"></div>
+            </form>
+        </li>
+    </ul>
+    <div class="fsubnav clrfix">
+        <ul class="clrfix flinks">
+            <li>
+                    <a href="/films/about">About Our Site</a></li>
+            <li>
+                    <a href="/films/our-company">Our Company</a></li>
+            <li>
+                    <a href="/films/team">Team</a></li>
+            <li>
+                    <a href="https://getsatisfaction.com/snagfilms" target="_blank">Feedback</a></li>
+            <li>
+                    <a href="/films/frequently_asked_questions">FAQ</a></li>
+            <li>
+                    <a href="/films/sitemap">Sitemap</a></li>
+            <li>
+                    <a href="http://itunes.apple.com/us/app/snagfilms/id404906625?mt=8">iPad / iPhone App</a></li>
+            <li>
+                    <a href="https://market.android.com/details?id=air.com.snagfilms&feature=search_result#?t=W251bGwsMSwyLDEsImFpci5jb20uc25hZ2ZpbG1zIl0." target="_blank">Android</a></li>
+            <li>
+                    <a href="http://www.amazon.com/SnagFilms-Inc-Beta/dp/B006BGXIO2/ref=sr_1_2?ie=UTF8&qid=1323709141&sr=8-2" target="_blank">Kindle Fire</a></li>
+            <li>
+                    <a href="http://appworld.blackberry.com/webstore/content/64991?lang=en" target="_blank">Blackberry</a></li>
+            <li>
+                    <a href="http://snagfilms.tumblr.com/post/4776522589/snagfilms-top-quality-documentaries-arrive-on-boxee" target="_blank">Boxee</a></li>
+            <li>
+                    <a href="http://www.businesswire.com/news/home/20110531006294/en/SnagFilms-launches-Roku-Acclaimed-Non-Fiction-Films" target="_blank">Roku</a></li>
+            <li>
+                    <a href="http://store.sony.com/webapp/wcs/stores/servlet/ContentDisplayView?hideHeaderFooter=false&storeId=10151&catalogId=10551&langId=-1&cmsId=STATICS_BIV_showcase" target="_blank">Sony</a></li>
+            <li>
+                    <a href="/films/submissions">Submit Your Film</a></li>
+            <li>
+                    <a href="/films/blog/category/press">Press</a></li>
+            <li>
+                    <a href="/films/blog">Blog</a></li>
+            <li>
+                    <a href="/films/advertise">Advertise</a></li>
+            <li>
+                    <a href="http://indieWIRE.com" target="_blank">Indiewire</a></li>
+            <li>
+                    <a href="http://www.youtube.com/user/snagfilms" target="_blank">YouTube</a></li>
+            <li>
+                    <a href="/films/jobs">Jobs</a></li>
+            <li>
+                    <a href="/films/privacy">Privacy</a></li>
+            <li>
+                    <a href="/films/terms">Terms</a></li>
+            <li>
+                    </li>
+            </ul>
+        <ul class="clrfix fconnect">
+            <li><span>Connect With SnagFilms:</span></li>
+                <li><a target="_blank" href="http://www.facebook.com/snagfilms">Facebook</a></li>
+                <li><a target="_blank" href="http://twitter.com/#!/snagfilms">Twitter</a></li>
+                <li><a target="_blank" href="/films/rss">RSS</a></li>
+                <li class="nl">
+                    <a id="newsletter-footer" class="last newsletter" href="#">Newsletter</a>
+                    <div id="newsletter-footer-frame-wrap" class="popup hidden ">
+    <iframe class="nl-frame" id="newsletter-footer-frame" src="" scrolling="no"></iframe>
+</div> <!-- end popup --></li>
+            </ul>
+    </div> <!-- end fsubnav -->
+    <div class="cright">&copy; Copyright 2008-2013 SnagFilms Inc. All Rights Reserved</div>
+    </div> <!-- end footer -->
+
+<script type="text/javascript">
+  SNAG.loadOnReady.add(function() {
+    var js_file = "http://cdn.snagfilms.com/resource/assets/scripts/jquery.autocomplete.c95ce2984cbf94aba9816e5891ca913d.js"; 
+    $.getScript(js_file, function(){
+      var options, a;
+      options = { serviceUrl:'/apis/titlesearch.json',
+	  			  minChars:3,
+	  			  deferRequestBy: 100, //miliseconds
+	  			  width:375,
+	  			  onSelect: function(value, data){window.location.href = data;}
+	  			  };
+      a = $('#query').autocomplete(options);
+      a = $('#fquery').autocomplete(options);
+      a.enable();
+    });
+	}, 'low');
+</script>
+
+<div id="getsat-widget-4505"></div>
+
+<script>
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://" : "http://") + "loader.engage.gsfn.us/loader.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  SNAG.loadOnReady.add(function() {if (typeof GSFN !== "undefined"){ GSFN.loadWidget(4505,{"containerId":"getsat-widget-4505"});}}, 'low');
+</script>
+
+<script type="text/javascript">_ga.trackFacebook();</script>
+</div></div><div id="queue-login" class="alt">Please login. <button class="btn-fb">Login</button></div>
+        <!-- Quantcast -->    
+        <script type="text/javascript">
+          var _qevents = _qevents || [];
+          _qevents.push( { qacct:"p-c1zCil38GHR-I"} );
+        </script>
+        <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1" alt="Quantcast"/></div>
+        </noscript>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery.tools.min.be31d9c385a70e9332e1d2c4f433d4de.js"></script>
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/swfobject.min.f24810ced6e0d3f40695dba6b8e59d96.js"></script>
+
+<script src="http://cdn.snagfilms.com/resource/assets/scripts/jquery-ui-1.8.22.custom.min.9b9d4784ea7921f3f7712a9ca9600c69.js"></script>
+<script type="text/javascript">   
+      SNAG.loadOnReady.add(function(){ 
+        
+        
+        window.fbAsyncInit = function() {
+          FB.init({
+              appId: '227991737252697',
+              status : true,
+              cookie : true,
+              oauth: true,
+              email: true,
+              xfbml  : true
+          });
+        
+          for (var i=0;i<SNAG.onFBInit.length;i++) {
+            if (typeof SNAG.onFBInit[i] === 'function') {
+              SNAG.onFBInit[i](FB);
+            }
+          }            
+
+        } //window.fbAsyncInit
+        
+        
+        $('.login a').on('click', function(event) { 
+          event.preventDefault();
+          
+          
+          document.cookie = 'fbsr_227991737252697 = ""; expired=0; path=/; domain=.snagfilms.com';
+          
+          FB.logout(function() {
+		    				      
+				location.reload();
+			  		
+          });
+        });
+
+		 
+		  
+        (function(d){
+          var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+          js = d.createElement('script'); js.id = id; js.async = true;
+          js.src = "//connect.facebook.net/en_US/all.js";
+          d.getElementsByTagName('head')[0].appendChild(js);
+        }(document)); 
+      
+        
+
+        $.getScript("http://cdn.snagfilms.com/resource/assets/scripts/footer.fe07b593fd7360f3b76858b7fe5aa8e8.js", function(){});             
+      },'low');
+      
+    </script>
+    
+  <script type="text/javascript">     
+
+    $(document).ready(function() {        
+      SNAG.loadOnReady.execute('high');      
+      if(SNAG.deferLoad) {      
+        setTimeout(function(){
+          if(!SNAG.loadFinished) {
+            SNAG.runWhenReady();
+          }
+        }, 10000);  
+      }
+      else {
+        SNAG.runWhenReady();
+      }           
+          
+    });
+  </script>      
+
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+            Sailthru.setup({
+                domain: 'horizon.snagfilms.com'
+            });
+        };
+    })();
+</script>
+      
+  </body>
+</html>
