@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+    <!-- 
+    Smart developers always View Source. 
+    
+    This application was built using Adobe Flex, an open source framework
+    for building rich Internet applications that get delivered via the
+    Flash Player or to desktops via Adobe AIR. 
+    
+    Learn more about Flex at http://flex.org 
+    // -->
+    <head>
+        <title></title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
+             the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as 
+             the percentage of the height of its parent container, which has to be set explicitly.  Fix for
+             Firefox 3.6 focus border issues.  Initially, don't display flashContent div so it won't show 
+             if JavaScript disabled.
+        -->
+        <style type="text/css" media="screen"> 
+            html, body  { height:100%; }
+            body { margin:0; padding:0; overflow:auto; text-align:center; 
+                   background-color: #000000; }   
+            object:focus { outline:none; }
+            #flashContent { display:none; }
+        </style>
+        
+        <!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
+        <!-- BEGIN Browser History required section -->
+        <link rel="stylesheet" type="text/css" href="history/history.css" />
+        <script type="text/javascript" src="history/history.js"></script>
+        <!-- END Browser History required section -->  
+            
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "10.1.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            // UA-33987606-1
+            //http://adserver.adtechus.com/?advideo/3.0/5182.1/2747798/0//cc=2;vidAS=overlay;vidRT=VAST;vidRTV=2.0
+            //f35cd3c0-b718-11e0-8513-0026bb0a22eb
+            // fc891c90-a73e-11e0-8481-0026bb61d036 vpaid
+            //ec49d720-689a-11e1-bdc7-123139220831 age gate
+            //d051e720-a747-11e0-a92a-0026bb61d036 sound issue
+            // 00000139-5981-d2ea-a7ff-7f995d580000 bug overlay
+            // 74849a00-85a9-11e1-9660-123139220831 // offline
+            // fc891c90-a73e-11e0-8481-0026bb61d036 tremor
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            var flashvars = {
+		    	src: 'rtmp://snagfilms.com/guid:00000139-53c6-dab2-a7b9-d3deb8e70000',
+		    	gaID: 'window.pageTracker',
+		    	gaMode: 'Bridge',
+		    	controlBarMode: "floating",
+		    	bugPosition: "lr",
+		    	javascriptCallbackFunction: 'onJavaScriptBridgeCreated',
+		    	autoPlay: false,
+		    	videoStartTime: 600
+		    };
+		    var params = {};
+            params.quality = "high";
+            params.bgcolor = "#000000";
+            params.allowscriptaccess = "always";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "SnagFilmsEmbedPlayer";
+            attributes.name = "SnagFilmsEmbedPlayer";
+            attributes.align = "left";
+            swfobject.embedSWF(
+                "SnagFilmsEmbedPlayer.swf", "flashContent", 
+                "1075", "609", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+        </script>
+        
+
+<script type="text/javascript">
+function playerEvent(obj)
+{
+console.log('playerEvent')
+	for (var name in obj)
+	{
+		console.log(name + ': ' + obj[name])
+	}
+}
+
+
+
+</script>
+
+<!-- -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+window.pageTracker = _gat._getTracker("UA-3922545-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+    </head>
+    <body>
+    
+    
+<!-- So, this page is just one made out of flash. The following line is used to define a default div size and its position. -->
+<div id="myAd" style="width: 728px; height: 90px; position:absolute; float:right; left: 715px; top: 26px;"></div>
+
+	<div>
+		<div>
+			<span id="currentTime" style="color:white" /> ... </span> : <span id="duration"  style="color:white" /> ... </span>
+		</div>   
+		<a href="#" id="play-pause">Play/Pause</a>  
+		<a href="#" id="set-time">Set time to 600</a>  
+	</div>
+
+<script language="javascript">
+function vastCompanions(ads)
+{	
+	
+	if(ads[0].htmlResource)
+	{
+		loadRBs('myAd', ads[0].width, ads[0].height, ads[0].htmlResource,  ads[0].companionClickThrough)
+	}
+	
+	for (var i=0; i<ads.length; i++)
+	{
+		for (var name in ads[i])
+		{
+			//console.log(name)
+		}
+		
+		console.log(ads[i].staticResource)
+
+	}
+	
+
+}
+
+function loadRBs(s,w,h,adTag, clickThrough)
+{
+    document.getElementById(s).innerHTML = '<a href="'+clickThrough+'" target="_blank">'+adTag+'</a>';
+
+}
+
+		function onCurrentTimeChange(time, playerId)
+		{
+			document.getElementById("currentTime").innerHTML = time;		
+		}
+		
+		function onDurationChange(time, playerId)
+		{
+			document.getElementById("duration").innerHTML = time;	
+		}		
+		
+		function onComplete(time, playerId)
+		{
+			console.log("COMPLETE");
+		}
+			
+		function onJavaScriptBridgeCreated(playerId)
+		{
+			var player = document.getElementById(playerId);
+			
+			// Add event listeners that will update the 
+			player.addEventListener("currentTimeChange", "onCurrentTimeChange");
+			player.addEventListener("durationChange", "onDurationChange");
+			player.addEventListener("complete", "onComplete");
+			
+			// Pause/Resume the playback when we click the Play/Pause link
+			document.getElementById("play-pause").onclick = 
+				function()
+				{
+					var state = player.getState();
+					if (state == "ready" || state == "paused")
+					{ 
+						player.play2();
+					}
+					else if (state == "playing")
+					{ 
+						player.pause2();
+					}
+					return false;		
+				};
+				
+						document.getElementById("set-time").onclick = 
+				function()
+				{
+player.startAtTime(600);
+
+					return false;		
+				};
+		}
+
+<!-- Again, the document.getElementById is what needs to be called, and syncRoadBlock is a required function -->
+<!-- -->
+</script>
+
+        <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
+             JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
+             when JavaScript is disabled.
+        -->
+        <div id="flashContent">
+            <p>
+                To view this page ensure that Adobe Flash Player version 
+                11.1.0 or greater is installed. 
+            </p>
+            <script type="text/javascript"> 
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://"); 
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" 
+                                + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+            </script> 
+        </div>
+        
+        <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="SnagFilmsEmbedPlayer">
+                <param name="movie" value="SnagFilmsEmbedPlayer.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#000000" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="SnagFilmsEmbedPlayer.swf" width="100%" height="100%">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#000000" />
+                    <param name="allowScriptAccess" value="always" />
+                    <param name="allowFullScreen" value="true" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                    <p> 
+                        Either scripts and active content are not permitted to run or Adobe Flash Player version
+                        11.1.0 or greater is not installed.
+                    </p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </noscript>     
+   </body>
+</html>
